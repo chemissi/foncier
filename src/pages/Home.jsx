@@ -18,7 +18,7 @@ import dataTestimonials from "../assets/fakeData/dataTestimonials";
 import About05 from "../components/about/About05";
 import BoxIcon from "../components/boxicon";
 import Box09 from "../components/boxicon/Box09";
-import ReviewJob09 from "../components/jobs/ReviewJob09";
+//import ReviewJob09 from "../components/jobs/ReviewJob09";
 import Footer from "../components/footer";
 
 //import Banner03 from "../components/banner/Banner03";
@@ -141,33 +141,23 @@ function Home(props) {
             <div className="wd-social d-flex aln-center">
               <ul className="list-social d-flex aln-center">
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.facebook.com/FoncierOnline" target='_blank'>
                     <i className="icon-facebook"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.linkedin.com/company/foncieronline/" target='_blank'>
                     <i className="icon-linkedin2"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="https://twitter.com/i/flow/login?redirect_after_login=%2FFoncierOnline" target='_blank'>
                     <i className="icon-twitter"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
-                    <i className="icon-pinterest"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
+                  <Link to="https://www.instagram.com/foncieronline/" target='_blank'>
                     <i className="icon-instagram1"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <i className="icon-youtube"></i>
                   </Link>
                 </li>
               </ul>
@@ -185,7 +175,7 @@ function Home(props) {
       
       <About05 className="review-job-section stc" />
 
-      <ReviewJob09 className="over-flow-hidden review-job-section-five" />
+      {/*<ReviewJob09 className="over-flow-hidden review-job-section-five" />*/}
 
       <IconBox />
       

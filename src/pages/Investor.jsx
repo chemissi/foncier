@@ -11,7 +11,7 @@ import { Link, NavLink } from "react-router-dom";
 import img1 from "../assets/images/job/work-icon-1.jpg";
 import img2 from "../assets/images/job/work-icon-2.jpg";
 import img3 from "../assets/images/job/work-icon-3.jpg";
-import Iconbox3 from "../components/aboutPage/Iconbox3";
+import Iconbox2 from "../components/aboutPage/Iconbox2";
 import Partner from "../components/aboutPage/Partner";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { Collapse } from "react-collapse";
@@ -152,16 +152,16 @@ function Investor(props) {
       </div>
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
 
-      <Breadcrumb title="About Us" />
-      <Review />
+      <Breadcrumb title="Investisseurs" />
+      
+      
+      <Iconbox2 />
       <BannerCounter />
       <section className="wd-iconbox style-3 inner-iconbox-section">
         <div className="tf-container">
           <div className="title-iconbox style-3 stc">
-            <h4>How it work?</h4>
-            <p>
-              Pellentesque quis lectus sagittis, gravida erat id, placerat
-              tellus.
+            <h4>Investisseurs ?</h4>
+            <p>Test
             </p>
           </div>
           <div className="row">
@@ -175,13 +175,9 @@ function Investor(props) {
                   </div>
                   <div className="box-content">
                     <h6 className="box-title">
-                      <Link to="/Blogsingle_v1">Free resume assessments</Link>
+                      <Link to="/Blogsingle_v1">Titre</Link>
                     </h6>
-                    <p>
-                      Aenean porta, eros lacus congue lorem, sit amet mollis
-                      magna velit ac erat Morbi accumsan purus nec vehicula
-                      ornare. Nam quis tincidunt nulla.
-                    </p>
+                    <p>Vous recherchez des fonciers pour vos programmes immobiliers VEFA ou pour la construction d'immeubles d'activité (bureaux, locaux, entrepôts…). FoncierOnLine vous présente des actifs qui correspondent à vos besoins.</p>
                     <button>
                       Start Now&nbsp;
                       <span className="icon-arrow-right2" />
@@ -196,13 +192,9 @@ function Investor(props) {
                   </div>
                   <div className="box-content">
                     <h6 className="box-title">
-                      <Link to="/Blogsingle_v1">Job fit scoring</Link>
+                      <Link to="/Blogsingle_v1">Titre</Link>
                     </h6>
-                    <p>
-                      Aenean porta, eros lacus congue lorem, sit amet mollis
-                      magna velit ac erat Morbi accumsan purus nec vehicula
-                      ornare. Nam quis tincidunt nulla.
-                    </p>
+                    <p>Actifs Core/Core+ situés dans des secteurs prisés, actifs value-added à fort potentiel de reconversion, actifs opportunistes, FoncierOnLine vous propose une base de données d'offres évaluées par nos experts.</p>
                     <button>
                       Start Now&nbsp;
                       <span className="icon-arrow-right2" />
@@ -218,14 +210,10 @@ function Investor(props) {
                   <div className="box-content ">
                     <h6 className="box-title">
                       <Link to="/Blogsingle_v1">
-                        Help every step of the way
+                      Titre
                       </Link>
                     </h6>
-                    <p>
-                      Aenean porta, eros lacus congue lorem, sit amet mollis
-                      magna velit ac erat Morbi accumsan purus nec vehicula
-                      ornare. Nam quis tincidunt nulla.
-                    </p>
+                    <p>Promoteurs, foncières et fonds d'investissement, family office, inscrivez-vous gratuitement et accédez aux offres à la vente. Participez aux consultations privées sélectionnées pour acheter dans les meilleures conditions.</p>
                     <button>
                       Start Now&nbsp;
                       <span className="icon-arrow-right2" />
@@ -237,8 +225,9 @@ function Investor(props) {
           </div>
         </div>
       </section>
-      <Iconbox3 />
       
+      <Review />
+
       <Partner />
       <section className="wd-banner-CTA">
         <div className="tf-container">

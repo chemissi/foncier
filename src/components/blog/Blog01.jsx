@@ -15,10 +15,11 @@ function Blog01(props) {
             <div className="tf-title style-2 style-4">
               <div className="group-title">
                 <h1>Blog</h1>
-                <p>Jobtex’s Blog provides valuable content to the job seeker</p>
+                <p>Votre blog de conseils immobiliers</p>
               </div>
             </div>
           </div>
+
           {data.slice(0, 3).map((idx) => (
             <div key={idx.id} className="col-lg-4 wow fadeInUp">
               <div className="box-latest">
@@ -35,7 +36,7 @@ function Blog01(props) {
                     </h3>
                   </div>
                   <ul className="date-post">
-                    <li>by {idx.author}</li>
+                    <li>{/*by {idx.author}*/}</li>
                     <li>
                       <span className="icon-calendar"></span>
                       {idx.time}
@@ -45,6 +46,7 @@ function Blog01(props) {
               </div>
             </div>
           ))}
+          
         </div>
       </div>
     </section>

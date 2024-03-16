@@ -156,7 +156,7 @@ function AboutUs(props) {
       </div>
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
 
-      <Breadcrumb title="About Us" />
+      <Breadcrumb title="Pour qui ? - Pourquoi ?" />
 
       <ReviewJob10 className="review-job-section-six" />
       <Review />

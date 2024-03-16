@@ -64,7 +64,7 @@ function HeaderHome2({ clname = "", handleMobile }) {
                         <NavLink to="/investor">Investisseurs</NavLink>
                       </li>
                       <li  className={`menu-item `}>
-                        <NavLink to="/Blog">Blog</NavLink>
+                        <NavLink to="/blog">Blog</NavLink>
                       </li>
                       <li  className={`menu-item `}>
                         <NavLink to="/contactus">Contact</NavLink>
@@ -82,7 +82,7 @@ function HeaderHome2({ clname = "", handleMobile }) {
                 </div>
                                
                 <div className="header-customize-item button">
-                  <Link to="/">Connexion</Link>
+                  <Link to="/login">Connexion</Link>
                 </div>
               </div>
               <div className="nav-filter" onClick={handleMobile}>

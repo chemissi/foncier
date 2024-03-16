@@ -148,7 +148,7 @@ function Blog(props) {
       </div>
 
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
-      <Breadcrumb title="Blog Grid" />
+      <Breadcrumb title="Blog" />
       <BlogSec2 data={dataBlog} />
       <Footer />
       <Gotop />

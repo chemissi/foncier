@@ -14,7 +14,7 @@ function Breadcrumb({ title, className }) {
               <div className="widget-menu-link">
                 <ul>
                   <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">Accueil</Link>
                   </li>
                   <li>
                     <Link to="#">{title}</Link>

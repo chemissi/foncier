@@ -27,7 +27,7 @@ function SignIn() {
                 </label>
                 <input
                   type="text"
-                  defaultValue="Tony Nguyen"
+                  defaultValue="Ghassen"
                   placeholder="Name"
                 />
               </div>

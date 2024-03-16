@@ -62,11 +62,12 @@ function Footer(props) {
                             Quick Links
                         </h6>
                         <ul className="navigation-menu-footer">
-                            <li> <Link to="find-jobs-list.html">Accueil</Link> </li>
-                            <li> <Link to="find-jobs-list.html">Pour qui ? - Pourquoi ?</Link> </li>
-                            <li> <Link to="find-jobs-list.html">Consultation</Link> </li>
-                            <li> <Link to="find-jobs-list.html">Blog</Link> </li>
-                            <li> <Link to="employers-grid-fullwidth.html">Contactez-nous</Link> </li>
+                            <li><Link to="/">Accueil</Link></li>
+                            <li><Link to="/aboutus">Pour qui ? - Pourquoi ?</Link></li>
+                            <li><Link to="/consultation">Consultation</Link></li>
+                            <li><Link to="/investor">Investisseurs</Link></li>
+                            <li><Link to="/investor">Blog</Link></li>
+                            <li><Link to="/contactus">Contactez-nous</Link></li>
                         </ul>
                         </div>
                     </div>

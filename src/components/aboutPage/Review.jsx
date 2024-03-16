@@ -86,21 +86,13 @@ function Review(props) {
           </div>
           <div className="col-lg-5 col-md-12 wow fadeInRight">
             <div className="wd-review-job contentbox1 page-text stc">
-              <h3>About Us</h3>
+              <h3>FoncierOnLine</h3>
+              <p>Vous possédez des actifs immobiliers situés
+                  dans une grande agglomération ou en périphérie ?
+                  vendez-les au meilleur prix à des investisseurs
+                  et promoteurs partenaires en quête d'opportunités.</p>
               <p>
-                Far much that one rank beheld bluebird after outside ignobly
-                allegedly more when oh arrogantly vehement irresistibly fussy
-                penguin insect additionally wow absolutely crud meretriciously
-                hastily dalmatian Link glowered inset one echidna cassowary.
-              </p>
-              <p>
-                Repeatedly dreamed alas opossum but dramatically despite
-                expeditiously that jeepers loosely yikes that as or eel
-                underneath kept and slept compactly far purred sure abidingly up
-                above fitting to strident wiped set waywardly far the and
-                pangolin horse approving paid chuckled cassowary oh above Link
-                much opposite far much hypnotically more therefore wasp less
-                that hey apart well like while superbly orca and far hence one.
+              Terrain, immeuble, locaux commerciaux, usine, murs d'hôtel, immobilier d'exception…décrivez les caractéristiques et informations de localisation en quelques clics. Obtenez gratuitement une estimation précise et juste de vos biens réalisée par nos experts. Découvrez combien vaut vraiment votre actif immobilier ! Les experts de FoncierOnline sont capables d'intervenir sur toutes les classes d'actifs immobiliers. Vous avez aussi la possibilité de lancez un appel d'offres afin de vendre au plus offrant ! Aucune commission à payer, accompagnement gratuit par FoncierOnline.
               </p>
               <Link to="#" className="tf-button style-1">
                 Read more

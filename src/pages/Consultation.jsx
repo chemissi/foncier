@@ -152,17 +152,14 @@ function Consultation(props) {
       </div>
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
 
-      <Breadcrumb title="About Us" />
+      <Breadcrumb title="Consultation" />
       <Review />
       <BannerCounter />
       <section className="wd-iconbox style-3 inner-iconbox-section">
         <div className="tf-container">
           <div className="title-iconbox style-3 stc">
             <h4>How it work?</h4>
-            <p>
-              Pellentesque quis lectus sagittis, gravida erat id, placerat
-              tellus.
-            </p>
+            <p>Les engagements de FoncierOnline, c’est…</p>
           </div>
           <div className="row">
             <div className="col-lg-12">
@@ -175,13 +172,9 @@ function Consultation(props) {
                   </div>
                   <div className="box-content">
                     <h6 className="box-title">
-                      <Link to="/Blogsingle_v1">Free resume assessments</Link>
+                      <Link to="/Blogsingle_v1">Opportunités Pratiques et Sécurité Juridique</Link>
                     </h6>
-                    <p>
-                      Aenean porta, eros lacus congue lorem, sit amet mollis
-                      magna velit ac erat Morbi accumsan purus nec vehicula
-                      ornare. Nam quis tincidunt nulla.
-                    </p>
+                    <p>Nous travaillons en partenariat avec les principaux promoteurs, fonds d'investissement, foncières qui sont reconnus pour leur professionnalisme, leurs engagements, et leurs compétences, tout en veillant à la protection de vos intérêts de l'amorce jusqu' à l'achèvement de la vente.</p>
                     <button>
                       Start Now&nbsp;
                       <span className="icon-arrow-right2" />
@@ -196,13 +189,9 @@ function Consultation(props) {
                   </div>
                   <div className="box-content">
                     <h6 className="box-title">
-                      <Link to="/Blogsingle_v1">Job fit scoring</Link>
+                      <Link to="/Blogsingle_v1">Assurance et Tranquillité</Link>
                     </h6>
-                    <p>
-                      Aenean porta, eros lacus congue lorem, sit amet mollis
-                      magna velit ac erat Morbi accumsan purus nec vehicula
-                      ornare. Nam quis tincidunt nulla.
-                    </p>
+                    <p>Une transaction réussie pour vous garantir une plus-value sur la vente de votre propriété, accompagnée par nos conseils experts à chaque étape de votre démarche de vente.</p>
                     <button>
                       Start Now&nbsp;
                       <span className="icon-arrow-right2" />
@@ -218,14 +207,10 @@ function Consultation(props) {
                   <div className="box-content ">
                     <h6 className="box-title">
                       <Link to="/Blogsingle_v1">
-                        Help every step of the way
+                        Opportunités Tangibles
                       </Link>
                     </h6>
-                    <p>
-                      Aenean porta, eros lacus congue lorem, sit amet mollis
-                      magna velit ac erat Morbi accumsan purus nec vehicula
-                      ornare. Nam quis tincidunt nulla.
-                    </p>
+                    <p>Nous vous offrons des perspectives concrètes en fournissant un cadre juridique solide grâce à nos partenaires de confiance, tout en assurant une gestion fluide de toutes les phases du projet.</p>
                     <button>
                       Start Now&nbsp;
                       <span className="icon-arrow-right2" />

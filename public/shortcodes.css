@@ -10774,6 +10774,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .inner-review-section-two {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
