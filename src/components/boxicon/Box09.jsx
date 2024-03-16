@@ -57,9 +57,9 @@ function Box09(props) {
                     </div>
                     <div className="box-content">
                     <h1 className="box-title">
-                        <Link to="#">1.&ensp; Post A job</Link>
+                        <Link to="#">1.&ensp; Gain de temps</Link>
                     </h1>
-                    <p>Structured digital interviews increase the predictive validity of your hires by 65%.</p>
+                    <p>Grâce à nos experts, vous gagnerez du temps sur la vente de votre actif immobilier.</p>
                     </div>
                 </div>
                 </div>
@@ -130,9 +130,9 @@ function Box09(props) {
                     </div>
                     <div className="box-content">
                     <h1 className="box-title">
-                        <Link to="#">2.&ensp; Find Employers</Link>
+                        <Link to="#">2.&ensp; Garantie</Link>
                     </h1>
-                    <p>Structured digital interviews increase the predictive validity of your hires by 65%.</p>
+                    <p>Nos experts en estimation s’engagent à vous faire une proposition en moins d’un mois.</p>
                     </div>
                 </div>
                 </div>
@@ -188,9 +188,9 @@ function Box09(props) {
                     </div>
                     <div className="box-content">
                     <h1 className="box-title">
-                        <Link to="#">3.&ensp; Pay Safely</Link>
+                        <Link to="#">3.&ensp; Qualité</Link>
                     </h1>
-                    <p>Structured digital interviews increase the predictive validity of your hires by 65%.</p>
+                    <p>Bénéficiez des meilleurs conseils de vente afin d’obtenir les meilleures propositions.</p>
                     </div>
                 </div>
                 </div>
@@ -244,9 +244,9 @@ function Box09(props) {
                     </div>
                     <div className="box-content">
                     <h1 className="box-title">
-                        <Link to="#">4.&ensp; We’re Here To Help</Link>
+                        <Link to="#">4.&ensp; Gratuit</Link>
                     </h1>
-                    <p>Structured digital interviews increase the predictive validity of your hires by 65%.</p>
+                    <p>FoncierOnline est totalement gratuit pour les propriétaires.</p>
                     </div>
                 </div>
                 </div>

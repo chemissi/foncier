@@ -11,8 +11,8 @@ function Testimonials(props) {
   const { className } = props;
 
   const [dataBlock] = useState({
-    title: "What our clients are saying",
-    text: "Showing companies based on reviews and recent job openings",
+    title: "Avis clients",
+    text: "Ce que nos clients disent de nous",
   });
 
   return (

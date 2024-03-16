@@ -1,17 +1,41 @@
 import React from "react";
+import PropTypes from "prop-types";
 import HeaderHome2 from "../components/header/HeaderHome2";
-import MapSection from "../components/map";
-import dataMap from "../assets/fakeData/dataMap";
-import Footer from "../components/footer";
-import Gotop from "../components/gotop";
-import Contact from "../components/contact";
-import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
-import { Collapse } from "react-collapse";
-import logo from "../assets/images/logo.png";
-import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import PopUpForm from "../components/popup";
 
-function ContactUs(props) {
+import Partner from "../components/partner";
+import dataPartner from "../assets/fakeData/dataPartner";
+
+import IconBox from "../components/iconbox";
+import ReviewJob from "../components/jobs/ReviewJob";
+
+import Blog01 from "../components/blog/Blog01";
+import dataBlog from "../assets/fakeData/dataBlog";
+
+import Testimonials from "../components/testimonials";
+import dataTestimonials from "../assets/fakeData/dataTestimonials";
+import About from "../components/about";
+import About05 from "../components/about/About05";
+import BoxIcon from "../components/boxicon";
+import Box09 from "../components/boxicon/Box09";
+import ReviewJob09 from "../components/jobs/ReviewJob09";
+import Footer from "../components/footer";
+
+//import Banner03 from "../components/banner/Banner03";
+import Banner08 from "../components/banner/Banner08";
+
+import Gotop from "../components/gotop";
+import { useEffect } from "react";
+import { Collapse } from "react-collapse";
+import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/images/logo.png";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+
+import { useState } from "react";
+
+Home.propTypes = {};
+
+function Home(props) {
   const [toggle, setToggle] = useState({
     key: "",
     status: false,
@@ -39,8 +63,17 @@ function ContactUs(props) {
       : getMobile.classList.remove("modal-menu--open");
   };
 
+  useEffect(() => {
+    const WOW = require("wowjs");
+    window.wow = new WOW.WOW({
+      live: false,
+    });
+    window.wow.init();
+  }, []);
+
   return (
     <>
+      <PopUpForm />
       <div className="menu-mobile-popup">
         <div className="modal-menu__backdrop" onClick={handleMobile}></div>
         <div className="widget-filter">
@@ -144,12 +177,50 @@ function ContactUs(props) {
       </div>
 
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
-      <MapSection markers={dataMap} />
-      <Contact />
+
+      <Banner08 />
+      {/*<Banner03 />*/}
+
+      <Partner data={dataPartner} />
+      
+      <About05 className="review-job-section stc" />
+
+      <ReviewJob09 className="over-flow-hidden review-job-section-five" />
+      <IconBox />
+      <ReviewJob />
+
+      <About className="review-job-section" />
+
+      <BoxIcon />
+      <Box09 />
+      
+
+      <Blog01 data={dataBlog} className="news-section" />
+      
+      <Testimonials
+        data={dataTestimonials}
+        className="testimonials-section-two"
+      />
+      <section className="wd-banner-CTA">
+        <div className="tf-container">
+          <div className="row">
+            <div className="col-lg-12  wow fadeInUp">
+              <div className="group-banner-CTA">
+                <h3>Investisseurs ?</h3>
+                <p>Recevez nos opportunités d'investissement</p>
+                <div className="group-btn">
+                  <button className="tf-btn">Je m'inscris</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <Footer />
       <Gotop />
     </>
   );
 }
 
-export default ContactUs;
+export default Home;

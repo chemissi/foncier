@@ -1080,7 +1080,7 @@
 
 .wd-review-job .list-review2 li:hover::before,
 .wd-review-job .list-review2 li.active::before {
-  background: #148160;
+  background: #002238;
 }
 
 .align-item-center {
@@ -1612,7 +1612,7 @@
 .tf-slider.sl6 {
   padding-top: 276px;
   padding-bottom: 194px;
-  background-image: url(../images/slider/slider3.jpg);
+  background-image: url(../src/assets/images/slider/slider3.jpg);
 }
 
 .tf-slider.sl7 {
@@ -1623,8 +1623,8 @@
 
 .tf-slider.sl8 {
   padding-top: 240px;
-  padding-bottom: 39px;
-  background-image: url(../images/slider/slider4.jpg);
+  padding-bottom: 80px;
+  background-image: url(../src/assets/images/slider/slider3.jpg);
 }
 
 .tf-slider.sl9 {
@@ -5627,7 +5627,7 @@
   padding-top: 118px;
   padding-bottom: 41px;
   padding-bottom: 46px;
-  background: #ed6607;
+  background: #002238;
 }
 
 .infor-contact-v1 .icon-inforr {
@@ -9877,8 +9877,8 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .group-banner-CTA .tf-btn:hover {
-  border-color: #148160;
-  background-color: #148160;
+  border-color: #ed6607;
+  background-color: #ed6607;
   color: #ffffff;
 }
 

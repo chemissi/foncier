@@ -113,7 +113,7 @@ function Home_v6(props) {
                               <Link to="/home_v2">Home Page 02 </Link>
                             </li>
                             <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v3">Home Page 03 </Link>
+                              <Link to="/Home">Home Page 03 </Link>
                             </li>
                             <li className="menu-item menu-item-mobile">
                               <Link to="/home_v4">Home Page 04 </Link>
@@ -354,7 +354,7 @@ function Home_v6(props) {
                               <Link to="/blog_v1">Blog List </Link>
                             </li>
                             <li className="menu-item menu-item-mobile">
-                              <Link to="/blog_v2">Blog Grid</Link>
+                              <Link to="/Blog">Blog Grid</Link>
                             </li>
                             <li className="menu-item menu-item-mobile">
                               <Link to="/blog_v3">Blog Masonry</Link>
@@ -506,7 +506,7 @@ function Home_v6(props) {
               <div className="content">
                 <p>Need help? 24/7</p>
                 <h6>
-                  <Link to="tel:0123456678">001-1234-88888</Link>
+                  <Link to="tel:0806079379">08 06 07 93 79</Link>
                 </h6>
               </div>
             </div>

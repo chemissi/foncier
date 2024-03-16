@@ -82,7 +82,7 @@ function BlogSec1(props) {
               <div className="categories-wrap">
                 {data.slice(0, 4).map((idx) => (
                   <div key={idx.id} className="categories-item">
-                    <Link to="/blog_v2">{idx.cate}</Link>
+                    <Link to="/Blog">{idx.cate}</Link>
                   </div>
                 ))}
               </div>
@@ -108,7 +108,7 @@ function BlogSec1(props) {
               <div className="widget-popular-tags-wrap">
                 {data.slice(0, 8).map((idx) => (
                   <span key={idx.id} className="widget-popular-tags-item">
-                    <Link to="/blog_v2">{idx.cate}</Link>
+                    <Link to="/Blog">{idx.cate}</Link>
                   </span>
                 ))}
               </div>

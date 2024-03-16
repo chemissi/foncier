@@ -1,17 +1,22 @@
 import React from "react";
+import PropTypes from "prop-types";
 import HeaderHome2 from "../components/header/HeaderHome2";
-import MapSection from "../components/map";
-import dataMap from "../assets/fakeData/dataMap";
+
+import Breadcrumb from "../components/breadcrumb";
 import Footer from "../components/footer";
+import BlogSec2 from "../components/blog/BlogSec2";
+import dataBlog from "../assets/fakeData/dataBlog";
 import Gotop from "../components/gotop";
-import Contact from "../components/contact";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { Collapse } from "react-collapse";
 import logo from "../assets/images/logo.png";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import Header4 from "../components/header/Header4";
 
-function ContactUs(props) {
+Blog.propTypes = {};
+
+function Blog(props) {
   const [toggle, setToggle] = useState({
     key: "",
     status: false,
@@ -38,7 +43,6 @@ function ContactUs(props) {
       ? getMobile.classList.add("modal-menu--open")
       : getMobile.classList.remove("modal-menu--open");
   };
-
   return (
     <>
       <div className="menu-mobile-popup">
@@ -144,12 +148,12 @@ function ContactUs(props) {
       </div>
 
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
-      <MapSection markers={dataMap} />
-      <Contact />
+      <Breadcrumb title="Blog Grid" />
+      <BlogSec2 data={dataBlog} />
       <Footer />
       <Gotop />
     </>
   );
 }
 
-export default ContactUs;
+export default Blog;

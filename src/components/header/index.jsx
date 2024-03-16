@@ -458,7 +458,7 @@ function Header({ clname = "", handleMobile }) {
                               </NavLink>
                             </li>
                             <li className="menu-item">
-                              <NavLink to="/home_v3">Home Page 03 </NavLink>
+                              <NavLink to="/Home">Home Page 03 </NavLink>
                             </li>
                             <li className="menu-item">
                               <NavLink to="/home_v4">Home Page 04 </NavLink>
@@ -722,7 +722,7 @@ function Header({ clname = "", handleMobile }) {
                                 <NavLink to="/blog_v1">Blog List </NavLink>
                               </li>
                               <li className="nav-menu-item">
-                                <NavLink to="/blog_v2">Blog Grid</NavLink>
+                                <NavLink to="/Blog">Blog Grid</NavLink>
                               </li>
                               <li className="nav-menu-item">
                                 <NavLink to="/blog_v3">Blog Masonry</NavLink>

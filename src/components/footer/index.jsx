@@ -46,7 +46,7 @@ function Footer(props) {
                             </div>
                             <div className="content">
                             <p>Need help? 24/7</p>
-                            <h6><Link to="tel:0123456678">001-1234-88888</Link></h6>
+                            <h6><Link to="tel:0806079379">08 06 07 93 79</Link></h6>
                             </div>
                         </div>
                         <p>Job Searching Just Got Easy. Use Jobtex to run a hiring site and earn money in the process!</p>

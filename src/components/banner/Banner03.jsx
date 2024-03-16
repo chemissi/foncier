@@ -13,9 +13,9 @@ function Banner03(props) {
           <div className="col-lg-8 col-md-12">
             <div className="content wow fadeInUp">
               <div className="heading">
-                <h2>Estimation GRATUITE et FIABLE de vos biens immobiliers</h2>
+                <h2>Estimation GRATUITE et FIABLE de vos actifs immobiliers</h2>
                 <p>Vous souhaitez obtenir une VALORISATION gratuite de votre actif immobilier personnel ou professionnel ?</p>
-                <p>Renseignez votre adresse pour découvrir comment vendre votre parcelle 30% plus cher</p>
+                <p>Renseignez votre adresse pour découvrir comment vendre votre parcelle 30% plus cher.</p>
               </div>
               <div className="form-sl">
                 <form action="/job-list-sidebar">

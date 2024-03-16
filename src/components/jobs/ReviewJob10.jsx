@@ -9,7 +9,7 @@ function ReviewJob10({ className }) {
       <div className="tf-container">
         <div className="tf-title style-2">
           <div className="group-title">
-            <h1>Get the job that's right for you</h1>
+            <h1>POUR QUI ? POURQUOI ?</h1>
           </div>
         </div>
         <div className="row">
@@ -82,26 +82,17 @@ function ReviewJob10({ className }) {
             <div className="wd-review-job pt10 wow fadeInUp">
               <ul className="list-review2">
                 <li className="active">
-                  <h6>Discover New Opportunities</h6>
-                  <p>
-                    Structured digital interviews increase the predictive
-                    validity of your hires by 65%.
+                  <h6>Particulier</h6>
+                  <p>Vous êtes un particulier et vous êtes propriétaire d’actifs immobiliers; vous voulez les vendre, mais pas à n'importe quel prix</p>
+                </li>
+                <li>
+                  <h6>Chef d'entreprise, commerçant, professions libérales…</h6>
+                  <p>Vous êtes chef d'entreprise, artisan, commerçant et vous êtes propriétaire des murs de votre commerce, de votre entreprise ou de votre site industriel et vous souhaitez préparer votre retraite ou opérer une reconversion ?
                   </p>
                 </li>
                 <li>
-                  <h6>Get Invited to Apply to jobs</h6>
-                  <p>
-                    Maverick pitch your profile to employers for jobs you’ll
-                    love -so you stand out-and these companies can reach out to
-                    you directly.
-                  </p>
-                </li>
-                <li>
-                  <h6>Save time with 1-click apply</h6>
-                  <p>
-                    No more filling out lengthy applications! Once Maverick has
-                    your key info, you can apply to most jobs with one click.
-                  </p>
+                  <h6>Collectivités</h6>
+                  <p>Collectivités territoriales, mairies, communautés de communes, conseils départementaux et régionaux, vous disposez d'actifs immobiliers inexploités, parfois coûteux en entretien.</p>
                 </li>
               </ul>
             </div>

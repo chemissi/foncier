@@ -55,15 +55,21 @@ function HeaderHome2({ clname = "", handleMobile }) {
                         <NavLink to="/">Accueil</NavLink>
                       </li>
                       <li  className={`menu-item `}>
-                        <NavLink to="/aboutus">Pour qui ? Pourquoi ?</NavLink>
+                        <NavLink to="/aboutus">Pour qui ? - Pourquoi ?</NavLink>
                       </li>
                       <li  className={`menu-item `}>
-                        <NavLink to="/Blog_v2">Blog</NavLink>
+                        <NavLink to="/consultation">Consultation</NavLink>
+                      </li>
+                      <li  className={`menu-item `}>
+                        <NavLink to="/investor">Investisseurs</NavLink>
+                      </li>
+                      <li  className={`menu-item `}>
+                        <NavLink to="/Blog">Blog</NavLink>
                       </li>
                       <li  className={`menu-item `}>
                         <NavLink to="/contactus">Contact</NavLink>
                       </li>
-                     
+                      
                     </ul>
                   </nav>
                 </div>

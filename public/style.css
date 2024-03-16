@@ -352,7 +352,7 @@ h1 {
 }
 
 h2 {
-  font-size: 52px;
+  font-size: 48px;
   line-height: 1.2142857142857142em;
 }
 
@@ -1490,13 +1490,14 @@ input[type="color"],
 }
 
 .sticky-area-wrap .header-ct-right .button a {
-  padding: 12px 31px;
-  border: 1px solid #ed6607;
+  padding: 11px 32px;
+  background: #ed6607;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  border-radius: 4px;
-  display: block;
+  text-transform: capitalize;
+  transition: 0.3s;
 }
 
 .header-landing .sticky-area-wrap .header-ct-right .button a {
@@ -1512,12 +1513,12 @@ input[type="color"],
 }
 
 .sticky-area-wrap .header-ct-right .button a:hover {
-  background: #ed6607;
+  background: #d35f0d;
   color: #fff;
 }
 
 .sticky-area-wrap .header-ct-right .button a {
-  color: #121212;
+  color: #fff;
 }
 
 #header.style-absolute .sticky-area-wrap .header-ct-left .categories>a span,

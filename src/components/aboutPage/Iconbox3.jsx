@@ -210,10 +210,9 @@ function Iconbox3(props) {
           </div>
           <div className="col-lg-6 col-md-12 content-tab wow fadeInRight">
             <div className="wd-review-job contentbox1">
-              <h3>Get the job that's right for you</h3>
+              <h3>FoncierOnLine</h3>
               <p>
-                Search millions of jobs and get the inside scoop on companies
-                with employee reviews, personalized salary tools, and more.
+              Expert en valorisation d’actifs immobiliers et partenaire d’un vaste réseau d’investisseurs professionnels, FoncierOnLine agit en qualité de facilitateur de transactions immobilières optimisées.
               </p>
               <ul className="wd-list-icon">
                 <li>
@@ -233,7 +232,7 @@ function Iconbox3(props) {
                       />
                     </svg>{" "}
                   </span>
-                  Access to millions of job seekers
+                  Accompagnement à la carte
                 </li>
                 <li>
                   <span className="icon">
@@ -252,7 +251,7 @@ function Iconbox3(props) {
                       />
                     </svg>{" "}
                   </span>
-                  Only pay for the candidates you want to contact
+                  Évaluation d'expert gratuite
                 </li>
                 <li>
                   <span className="icon">
@@ -271,7 +270,7 @@ function Iconbox3(props) {
                       />
                     </svg>{" "}
                   </span>
-                  Post unlimited jobs for free—all from one place
+                  Valorisation et promotion de votre « appel d'offres »
                 </li>
                 <li>
                   <span className="icon">
@@ -290,8 +289,7 @@ function Iconbox3(props) {
                       />
                     </svg>{" "}
                   </span>
-                  Premium job placement on SimplyHired, Indeed, & over 100 job
-                  sites
+                  Mise en relation avec une sélection d'acheteurs de confiance
                 </li>
                 <li>
                   <span className="icon">
@@ -310,8 +308,7 @@ function Iconbox3(props) {
                       />
                     </svg>{" "}
                   </span>
-                  Hiring solutions & pricing that works with seasonal hiring
-                  changes
+                  Votre offre a été sélectionnée. Il n'y a plus qu'à réaliser la transaction
                 </li>
               </ul>
             </div>
