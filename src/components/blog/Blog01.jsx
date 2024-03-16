@@ -14,7 +14,7 @@ function Blog01(props) {
           <div className="col-md-12">
             <div className="tf-title style-2 style-4">
               <div className="group-title">
-                <h1>Latest News</h1>
+                <h1>Blog</h1>
                 <p>Jobtex’s Blog provides valuable content to the job seeker</p>
               </div>
             </div>

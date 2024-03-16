@@ -124,17 +124,7 @@ function ContactUs(props) {
                 </li>
                 <li>
                   <Link to="#">
-                    <i className="icon-pinterest"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
                     <i className="icon-instagram1"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <i className="icon-youtube"></i>
                   </Link>
                 </li>
               </ul>

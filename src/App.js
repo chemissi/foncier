@@ -38,21 +38,20 @@ import Preloader from "./components/preloader";
 const App = () => {
   let routes = useRoutes([
     { path: "/", element: <Home /> },
-    
     { path: "/aboutus", element: <AboutUs /> },
-    
     { path: "/investor", element: <Investor /> },
     { path: "/consultation", element: <Consultation /> },
+    { path: "/contactus", element: <ContactUs /> },
+    
     
     { path: "/blogsingle_v1", element: <Blogsingle_v1 /> },
     { path: "/blogsingle_v2", element: <Blogsingle_v2 /> },
     { path: "/blogsingle_v3", element: <Blogsingle_v3 /> },
-    
+
     { path: "/blog_v1", element: <Blog_v1 /> },
     { path: "/blog", element: <Blog /> },
     { path: "/blog_v3", element: <Blog_v3 /> },
 
-    { path: "/contactus", element: <ContactUs /> },
     
     { path: "/faqs", element: <Faqs /> },
     { path: "/termsofuse", element: <Termsofuse /> },

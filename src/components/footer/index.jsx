@@ -20,14 +20,12 @@ function Footer(props) {
                     </div>
                     <div className="col-lg-10 col-md-8">
                         <div className="wd-social d-flex aln-center">
-                        <span>Follow Us:</span>
+                        <span>Suivez-nous:</span>
                         <ul className="list-social d-flex aln-center">
-                            <li><Link to="#"><i className="icon-facebook"></i></Link></li>
-                            <li><Link to="#"><i className="icon-linkedin2"></i></Link></li>
-                            <li><Link to="#"><i className="icon-twitter"></i></Link></li>
-                            <li><Link to="#"><i className="icon-pinterest"></i></Link></li>
-                            <li><Link to="#"><i className="icon-instagram1"></i></Link></li>
-                            <li><Link to="#"><i className="icon-youtube"></i></Link></li>
+                            <li><Link to="https://www.facebook.com/FoncierOnline" target='_blank'><i className="icon-facebook"></i></Link></li>
+                            <li><Link to="https://www.linkedin.com/company/foncieronline/" target='_blank'><i className="icon-linkedin2"></i></Link></li>
+                            <li><Link to="https://twitter.com/i/flow/login?redirect_after_login=%2FFoncierOnline" target='_blank'><i className="icon-twitter"></i></Link></li>
+                            <li><Link to="https://www.instagram.com/foncieronline/" target='_blank'><i className="icon-instagram1"></i></Link></li>
                         </ul>
                         </div>
                     </div>
@@ -37,7 +35,7 @@ function Footer(props) {
                 <div className="inner-footer">
                 <div className="tf-container">
                     <div className="row">
-                    <div className="col-lg-4 col-md-6">
+                    <div className="col-lg-6 col-md-6">
                         <div className="footer-cl-1">
                         <div className="icon-infor d-flex aln-center">
                             <div className="icon">
@@ -49,10 +47,10 @@ function Footer(props) {
                             <h6><Link to="tel:0806079379">08 06 07 93 79</Link></h6>
                             </div>
                         </div>
-                        <p>Job Searching Just Got Easy. Use Jobtex to run a hiring site and earn money in the process!</p>
-                        <div className="ft-icon"> <i className="icon-map-pin"></i> 101 E 129th St, East Chicago, IN 46312, US</div>
+                        <p>Spécialiste de l'estimation gratuite des actifs immobiliers</p>
+                        <div className="ft-icon"> <i className="icon-map-pin"></i> 9 rue Anatole de la Forge, 75017 Paris</div>
                         <form action="#" id="subscribe-form">
-                            <input type="email" placeholder="Your email address" required="" id="subscribe-email" />
+                            <input type="email" placeholder="Saisissez votre e-mail" required="" id="subscribe-email" />
                             <button className="tf-button" type="submit" id="subscribe-button"><i
                                 className="icon-paper-plane-o"></i></button>
                         </form>
@@ -64,56 +62,38 @@ function Footer(props) {
                             Quick Links
                         </h6>
                         <ul className="navigation-menu-footer">
-                            <li> <Link to="find-jobs-list.html">Job Packages</Link> </li>
-                            <li> <Link to="find-jobs-list.html">Post New Job</Link> </li>
-                            <li> <Link to="find-jobs-list.html">Jobs Listing</Link> </li>
-                            <li> <Link to="find-jobs-list.html">Jobs Style Grid</Link> </li>
-                            <li> <Link to="employers-list.html">Employer Listing</Link> </li>
-                            <li> <Link to="employers-grid-fullwidth.html">Employers Grid</Link> </li>
-                        </ul>
-                        </div>
-                    </div>
-                    <div className="col-lg-2 col-md-4 col-6">
-                        <div className="footer-cl-3">
-                        <h6 className="ft-title">
-                            For Candidates
-                        </h6>
-                        <ul className="navigation-menu-footer">
-                            <li> <Link to="dashboard.html">User Dashboard</Link> </li>
-                            <li> <Link to="sample-cv.html">CV Packages</Link> </li>
-                            <li> <Link to="candidate-list-sidebar.html">Candidate Listing</Link> </li>
-                            <li> <Link to="candidate-grid.html">Candidates Grid</Link> </li>
-                            <li> <Link to="about-us.html">About us</Link> </li>
-                            <li> <Link to="contact-us.html">Contact us </Link> </li>
+                            <li> <Link to="find-jobs-list.html">Accueil</Link> </li>
+                            <li> <Link to="find-jobs-list.html">Pour qui ? - Pourquoi ?</Link> </li>
+                            <li> <Link to="find-jobs-list.html">Consultation</Link> </li>
+                            <li> <Link to="find-jobs-list.html">Blog</Link> </li>
+                            <li> <Link to="employers-grid-fullwidth.html">Contactez-nous</Link> </li>
                         </ul>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-4 col-6">
                         <div className="footer-cl-4">
                         <h6 className="ft-title">
-                            For Employers
+                            Estimation
                         </h6>
                         <ul className="navigation-menu-footer">
-                            <li> <Link to="find-jobs-list.html">Post New Job</Link> </li>
-                            <li> <Link to="employers-list.html">Employer Listing</Link> </li>
-                            <li> <Link to="employers-grid-sidebar.html">Employers Grid</Link> </li>
-                            <li> <Link to="find-jobs-list.html">Job Packages</Link> </li>
-                            <li> <Link to="find-jobs-list.html">Jobs Listing</Link> </li>
-                            <li> <Link to="find-jobs-grid.html">Jobs Style Grid</Link> </li>
+                            <li> <Link to="find-jobs-list.html">Particulier</Link> </li>
+                            <li> <Link to="employers-list.html">Investisseur</Link> </li>
                         </ul>
                         </div>
                     </div>
                     <div className="col-lg-2 col-md-4 col-6">
-                        <div className="footer-cl-5">
+                        <div className="footer-cl-3">
                         <h6 className="ft-title">
-                            Download App
+                            Conditions
                         </h6>
-                        <ul className="ft-download">
-                            <li> <Link to="#"><img src={require ('../../assets/images/review/btn3.png')} alt="images" /></Link></li>
-                            <li> <Link to="#"><img src={require ('../../assets/images/review/btn4.png')} alt="images" /></Link></li>
+                        <ul className="navigation-menu-footer">
+                            <li> <Link to="dashboard.html">Mentions légales</Link> </li>
+                            <li> <Link to="sample-cv.html">Protection de données</Link> </li>
+                            <li> <Link to="candidate-list-sidebar.html">Politique de confidentialité</Link> </li>
                         </ul>
                         </div>
                     </div>
+                    
                     </div>
                 </div>
                 </div>
@@ -124,13 +104,6 @@ function Footer(props) {
                         <div className="bt-left">
                         <div className="copyright">© 2024 FoncierOnline – Tous droits réservés.</div>
                         </div>
-                    </div>
-                    <div className="col-lg-6 col-md-6">
-                        <ul className="menu-bottom d-flex aln-center">
-                        <li><Link to="term-of-use.html">Terms Of Services</Link> </li>
-                        <li><Link to="pricing.html">Privacy Policy</Link> </li>
-                        <li><Link to="contact-us.html">Cookie Policy</Link> </li>
-                        </ul>
                     </div>
                     </div>
                 </div>

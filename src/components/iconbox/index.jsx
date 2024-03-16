@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import img from '../../assets/images/job/img-home-1.jpg'
-import Couter from './Couter';
 import { Link } from 'react-router-dom';
 
 IconBox.propTypes = {
@@ -23,11 +22,8 @@ function IconBox(props) {
                     <div className="column-6 background2">
                         <div className="group-iconbox">
                         <div className="title-iconbox">
-                            <h1>What can I do with Jobtex?</h1>
-                            <p>
-                            Streamline your hiring process with strategic channels to
-                            reach qualified candidates
-                            </p>
+                            <h1>Nos avantages</h1>
+                            <p>Nous vous accompagnons dans la valorisation de vos actifs immobiliers</p>
                         </div>
                         <div className="text-iconbox wow fadeInRight">
                             
@@ -80,12 +76,9 @@ function IconBox(props) {
                             </div>
                             <div className="box-content">
                                 <h1 className="box-title">
-                                <Link to="#">Reduce Hiring bias</Link>
+                                <Link to="#">Expertise et Fiabilité</Link>
                                 </h1>
-                                <p>
-                                Structured digital interviews increase the predictive
-                                validity of your hires by 65%.
-                                </p>
+                                <p>Vos biens immobiliers sont évalués gratuitement par nos experts et estimés à leur juste valeur.</p>
                             </div>
                             </div>
                             
@@ -128,12 +121,9 @@ function IconBox(props) {
                             </div>
                             <div className="box-content">
                                 <h1 className="box-title">
-                                <Link to="#">Save time & headspace</Link>
+                                <Link to="#">Transparence et Indépendance</Link>
                                 </h1>
-                                <p>
-                                Reduce your time-to-hire by up to 75% and free up
-                                headspace for other HR priorities.
-                                </p>
+                                <p>Échangez librement avec un interlocuteur de confiance et bénéficiez du savoir-faire de nos experts en valorisation d’actifs immobiliers !</p>
                             </div>
                             </div>
                             
@@ -186,12 +176,9 @@ function IconBox(props) {
                             </div>
                             <div className="box-content">
                                 <h1 className="box-title">
-                                <Link to="#">Minimize environmental impact</Link>
+                                <Link to="#">Efficacité</Link>
                                 </h1>
-                                <p>
-                                Did you know? U.S. office workers use ~10,000 sheets of
-                                paper every year.
-                                </p>
+                                <p>Pour faciliter les ventes et assurer un rapport gagnant, vos biens sont présentés à notre sélection de partenaires promoteurs, foncières, fonds d'investissement, family office afin de vous proposer la meilleure offre.</p>
                             </div>
                             </div>
                             
@@ -262,12 +249,9 @@ function IconBox(props) {
                             </div>
                             <div className="box-content">
                                 <h1 className="box-title">
-                                <Link to="#">Save money</Link>
+                                <Link to="#">Sécurité</Link>
                                 </h1>
-                                <p>
-                                Interview more candidates, more quickly – and still save
-                                money.
-                                </p>
+                                <p>Pour vos transactions, vous bénéficiez d’un cadre juridique sécurisé grâce à nos partenaires promoteurs et investisseurs sélectionnés.</p>
                             </div>
                             </div>
                         </div>
@@ -276,7 +260,6 @@ function IconBox(props) {
                     </div>
                 </div>
                 
-                <Couter />
             </div>
         </section>
     );

@@ -43,7 +43,7 @@ function About05({className}) {
                           />
                         </svg>
                       </span>
-                      Terrains constructibles
+                      IMMEUBLE RÉSIDENTIEL
                     </li>
                     <li>
                       <span className="icon">
@@ -62,7 +62,7 @@ function About05({className}) {
                           />
                         </svg>
                       </span>
-                      Immeubles de bureaux
+                      IMMEUBLE DE BUREAUX
                     </li>
                     <li>
                       <span className="icon">
@@ -81,7 +81,7 @@ function About05({className}) {
                           />
                         </svg>
                       </span>
-                      Commerces
+                      USINE - FRICHE
                     </li>
                   </ul>
                   <ul className="wd-list-icon style2">
@@ -102,7 +102,7 @@ function About05({className}) {
                           />
                         </svg>
                       </span>
-                      Friches
+                      HOTEL
                     </li>
                     <li>
                       <span className="icon">
@@ -121,7 +121,7 @@ function About05({className}) {
                           />
                         </svg>
                       </span>
-                      Sites industriels
+                      MAISON + TERRAIN OU TERRAIN NU
                     </li>
                     <li>
                       <span className="icon">
@@ -140,7 +140,7 @@ function About05({className}) {
                           />
                         </svg>
                       </span>
-                      .....
+                      LOCAL COMMERCIAL
                     </li>
                   </ul>
                 </div>

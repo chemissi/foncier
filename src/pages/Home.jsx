@@ -7,14 +7,14 @@ import Partner from "../components/partner";
 import dataPartner from "../assets/fakeData/dataPartner";
 
 import IconBox from "../components/iconbox";
-import ReviewJob from "../components/jobs/ReviewJob";
+//import ReviewJob from "../components/jobs/ReviewJob";
+//import About from "../components/about";
 
 import Blog01 from "../components/blog/Blog01";
 import dataBlog from "../assets/fakeData/dataBlog";
 
 import Testimonials from "../components/testimonials";
 import dataTestimonials from "../assets/fakeData/dataTestimonials";
-import About from "../components/about";
 import About05 from "../components/about/About05";
 import BoxIcon from "../components/boxicon";
 import Box09 from "../components/boxicon/Box09";
@@ -186,14 +186,15 @@ function Home(props) {
       <About05 className="review-job-section stc" />
 
       <ReviewJob09 className="over-flow-hidden review-job-section-five" />
-      <IconBox />
-      <ReviewJob />
 
-      <About className="review-job-section" />
+      <IconBox />
+      
+      {/*<ReviewJob />*/}
+
+      {/*<About className="review-job-section" />*/}
 
       <BoxIcon />
       <Box09 />
-      
 
       <Blog01 data={dataBlog} className="news-section" />
       
@@ -204,7 +205,7 @@ function Home(props) {
       <section className="wd-banner-CTA">
         <div className="tf-container">
           <div className="row">
-            <div className="col-lg-12  wow fadeInUp">
+            <div className="col-lg-12 wow fadeInUp">
               <div className="group-banner-CTA">
                 <h3>Investisseurs ?</h3>
                 <p>Recevez nos opportunités d'investissement</p>

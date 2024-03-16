@@ -24,26 +24,26 @@ const dataBlog = [
   {
     id: 1,
     img: img1,
-    title: "The 9-to-5 workday doesn’t work anymore",
+    title: "Locaux d'activité et entrepôts logistiques, quelles différences ?",
     cate: "Design",
     author: "Themeflat",
-    time: "2 days ago",
+    time: " 07-11-2023",
   },
   {
     id: 2,
     img: img2,
-    title: "Cards on the table: 3 ways to spot a transparent company",
+    title: "Vendre son terrain à un lotisseur: avantages, méthodes",
     cate: "Business",
     author: "Themeflat",
-    time: "2 days ago",
+    time: " 06/01/2024",
   },
   {
     id: 3,
     img: img3,
-    title: "Jobtex Announces Awards Criteria for the Best Places to Work 2023",
+    title: "Comment déterminer la valeur d'un actif immobilier ?",
     cate: "Design",
     author: "Themeflat",
-    time: "2 days ago",
+    time: " 14/03/2024",
   },
 
   {

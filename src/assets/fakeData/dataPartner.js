@@ -38,17 +38,34 @@ const dataPartner = [
         img: img7
     },
     {
-        id: 8,
+        id: 11,
+        img: img1
+    },
+    {
+        id: 12,
         img: img2
     },
     {
-        id: 9,
+        id: 13,
         img: img3
     },
     {
-        id: 10,
+        id: 14,
         img: img4
     },
+    {
+        id: 15,
+        img: img5
+    },
+    {
+        id: 16,
+        img: img6
+    },
+    {
+        id: 17,
+        img: img7
+    },
+    
 ]
 
 export default dataPartner;

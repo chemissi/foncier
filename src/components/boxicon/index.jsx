@@ -10,8 +10,8 @@ function BoxIcon(props) {
 
     const [dataBlock] = useState(
         {
-            title: 'What can I do with Jobtex?',
-            text: 'Streamline your hiring process with strategic channels to reach qualified candidates'
+            title: 'Nos avantages',
+            text: 'Nous vous accompagnons dans la valorisation de vos actifs immobiliers'
         },
     )
     return (

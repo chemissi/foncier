@@ -28,8 +28,8 @@ function Contact() {
                         </svg>
                       </div>
                       <div className="content">
-                        <h6>Call Us</h6>
-                        <p>123 456 7890</p>
+                        <h6>Téléphone</h6>
+                        <p>08 06 07 93 79</p>
                       </div>
                     </div>
                     <div className="icon-inforr">
@@ -49,7 +49,7 @@ function Contact() {
                       </div>
                       <div className="content">
                         <h6>Email</h6>
-                        <p>themeflat@gmail.com</p>
+                        <p>contact@foncieronline.com</p>
                       </div>
                     </div>
                     <div className="icon-inforr">
@@ -72,8 +72,8 @@ function Contact() {
                         </svg>
                       </div>
                       <div className="content">
-                        <h6>Address</h6>
-                        <p>4140 Parker Rd. Allentown, New Mexico 31134</p>
+                        <h6>Addresse</h6>
+                        <p>9 rue Anatole de la Forge, 75017 Paris</p>
                       </div>
                     </div>
                     <ul className="list-social d-flex aln-center">
@@ -94,17 +94,7 @@ function Contact() {
                       </li>
                       <li>
                         <Link to="#">
-                          <i className="icon-pinterest" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="#">
                           <i className="icon-instagram1" />
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="#">
-                          <i className="icon-youtube" />
                         </Link>
                       </li>
                     </ul>
@@ -113,19 +103,27 @@ function Contact() {
                     <form>
                       <div className="group-input">
                         <div className="ip">
-                          <input type="text" placeholder="Your Name" />
+                          <input type="text" placeholder="Prénom*" />
                         </div>
                         <div className="ip">
-                          <input type="text" placeholder="Subject" />
+                          <input type="text" placeholder="Nom*" />
+                        </div>
+                      </div>
+                      <div className="group-input">
+                        <div className="ip">
+                        <input type="email" placeholder="Email*" />
+                        </div>
+                        <div className="ip">
+                          <input type="text" placeholder="Téléphone*" />
                         </div>
                       </div>
                       <div className="ip out s1">
-                        <input type="email" placeholder="Your Email" />
+                      <input type="text" placeholder="Objet de la demande*" />
                       </div>
                       <div className="ip out">
-                        <textarea placeholder="Your questions..." />
+                        <textarea placeholder="Votre message" />
                       </div>
-                      <button>send Message</button>
+                      <button>ENVOYER</button>
                     </form>
                   </div>
                 </div>
@@ -138,13 +136,10 @@ function Contact() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="banner-contact-v1">
-                  <h6>recruiting?</h6>
-                  <p>
-                    Advertise your jobs to milions of monthly users and search
-                    15.3 milions cvs in our database.
-                  </p>
+                  <h6>FoncierOnline</h6>
+                  <p>Vous souhaitez obtenir une valorisation gratuite de votre actif immobilier ? </p>
                   <Link to="#" className="btn">
-                    Start Recruiting now
+                    Procédez à l'éstimation
                   </Link>
                 </div>
               </div>
