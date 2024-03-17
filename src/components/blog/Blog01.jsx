@@ -28,11 +28,11 @@ function Blog01(props) {
                 </div>
                 <div className="box-content">
                   <div className="heading">
-                    <Link to="#" className="tag">
+                    <Link to="blog" className="tag">
                       {idx.cate}
                     </Link>
                     <h3>
-                      <Link to="blog-detail-side-bar.html"> {idx.title}</Link>
+                      <Link to="blog"> {idx.title}</Link>
                     </h3>
                   </div>
                   <ul className="date-post">

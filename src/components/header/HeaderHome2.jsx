@@ -75,14 +75,8 @@ function HeaderHome2({ clname = "", handleMobile }) {
                 </div>
               </div>
               <div className="header-ct-right st-1">
-                <div className="header-customize-item help">
-                  <Link to="/termsofuse">
-                    <span className="icon-help-circle"></span>
-                  </Link>
-                </div>
-                               
-                <div className="header-customize-item button">
-                  <Link to="/login">Connexion</Link>
+                <div className="header-customize-item">
+                  <Link to="/login" >Connexion</Link>
                 </div>
               </div>
               <div className="nav-filter" onClick={handleMobile}>

@@ -21,14 +21,6 @@ const select4 = [
   { value: "s1", label: "Certificate" },
   { value: "s2", label: ">Certificate 2" },
 ];
-const select5 = [
-  { value: "s1", label: "Marketing" },
-  { value: "s2", label: "Developer" },
-];
-const select6 = [
-  { value: "s1", label: "Weekly" },
-  { value: "s2", label: "Weekly 2" },
-];
 
 Sidebar.propTypes = {};
 
@@ -99,31 +91,6 @@ function Sidebar(props) {
               </div>
             </div>
             <button type="submit">Find Candidates</button>
-          </form>
-        </div>
-        <div className="widget-filter no-scroll">
-          <form>
-            <div className="group-form">
-              <label className="title">Title </label>
-              <div className="group-input">
-                <Dropdown
-                  options={select5}
-                  className="react-dropdown select2"
-                  value={select5[0]}
-                />
-              </div>
-            </div>
-            <div className="group-form">
-              <label className="title">Email Frequency</label>
-              <div className="group-input">
-                <Dropdown
-                  options={select6}
-                  className="react-dropdown select2"
-                  value={select6[0]}
-                />
-              </div>
-            </div>
-            <button type="submit">save job Alert</button>
           </form>
         </div>
       </div>

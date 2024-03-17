@@ -111,7 +111,7 @@ function AboutUs(props) {
                 </span>
               </div>
               <div className="content">
-                <p>Need help? 24/7</p>
+                <p>Besoin d'aide ?</p>
                 <h6>
                   <Link to="tel:0806079379">08 06 07 93 79</Link>
                 </h6>
@@ -248,8 +248,10 @@ function AboutUs(props) {
                   velit ac erat.
                 </p>
                 <div className="group-btn">
-                  <button className="tf-btn">Search Job</button>
-                  <button className="tf-btn">Find Candidates</button>
+                  <div className="form-group-4 header-customize-item">
+                    <Link type="submit" to="/createaccount">Particulier</Link>{' '}
+                    <Link type="submit" to="/createaccount">Investisseur</Link>
+                  </div>
                 </div>
               </div>
             </div>

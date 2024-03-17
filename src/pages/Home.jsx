@@ -32,6 +32,7 @@ import logo from "../assets/images/logo.png";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 import { useState } from "react";
+import Estimate from "./Estimate";
 
 Home.propTypes = {};
 
@@ -119,7 +120,7 @@ function Home(props) {
             </div>
           </Tabs>
           <div className="header-customize-item button">
-            <Link to="/">ESTIMER</Link>
+            <Link to="/">CONNEXION</Link>
           </div>
           <div className="mobile-footer">
             <div className="icon-infor d-flex aln-center">
@@ -132,7 +133,7 @@ function Home(props) {
                 </span>
               </div>
               <div className="content">
-                <p>Need help? 24/7</p>
+                <p>Besoin d'aide ?</p>
                 <h6>
                   <Link to="tel:0806079379">08 06 07 93 79</Link>
                 </h6>
@@ -200,7 +201,9 @@ function Home(props) {
                 <h3>Investisseurs ?</h3>
                 <p>Recevez nos opportunités d'investissement</p>
                 <div className="group-btn">
-                  <button className="tf-btn">Je m'inscris</button>
+                  <div className="form-group-4 header-customize-item">
+                    <Link type="submit" to="/createaccount">Je m'inscris</Link>
+                  </div>
                 </div>
               </div>
             </div>

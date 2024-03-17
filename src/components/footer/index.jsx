@@ -43,7 +43,7 @@ function Footer(props) {
                                 className="path3"></span><span className="path4"></span></span>
                             </div>
                             <div className="content">
-                            <p>Need help? 24/7</p>
+                            <p>Besoin d'aide ?</p>
                             <h6><Link to="tel:0806079379">08 06 07 93 79</Link></h6>
                             </div>
                         </div>
@@ -77,8 +77,8 @@ function Footer(props) {
                             Estimation
                         </h6>
                         <ul className="navigation-menu-footer">
-                            <li> <Link to="find-jobs-list.html">Particulier</Link> </li>
-                            <li> <Link to="employers-list.html">Investisseur</Link> </li>
+                            <li> <Link to="/estimate">Particulier</Link> </li>
+                            <li> <Link to="/estimate">Investisseur</Link> </li>
                         </ul>
                         </div>
                     </div>
@@ -88,9 +88,9 @@ function Footer(props) {
                             Conditions
                         </h6>
                         <ul className="navigation-menu-footer">
-                            <li> <Link to="dashboard.html">Mentions légales</Link> </li>
-                            <li> <Link to="sample-cv.html">Protection de données</Link> </li>
-                            <li> <Link to="candidate-list-sidebar.html">Politique de confidentialité</Link> </li>
+                            <li> <Link to="/termsofuse">Mentions légales</Link> </li>
+                            <li> <Link to="/faqs">Protection de données</Link> </li>
+                            <li> <Link to="/termsofuse">Politique de confidentialité</Link> </li>
                         </ul>
                         </div>
                     </div>

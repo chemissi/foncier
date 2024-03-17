@@ -25,6 +25,7 @@ import Pricing from "./pages/Pricing";
 import Investor from "./pages/Investor";
 import Consultation from "./pages/Consultation";
 
+import Estimate from "./pages/Estimate";
 import Login from "./pages/Login";
 import CreateAccount from "./pages/CreateAccount";
 import ContactUs from "./pages/ContactUs";
@@ -42,7 +43,7 @@ const App = () => {
     { path: "/investor", element: <Investor /> },
     { path: "/consultation", element: <Consultation /> },
     { path: "/contactus", element: <ContactUs /> },
-    
+    { path: "/estimate", element: <Estimate /> },
     
     { path: "/blogsingle_v1", element: <Blogsingle_v1 /> },
     { path: "/blogsingle_v2", element: <Blogsingle_v2 /> },

@@ -13,17 +13,17 @@ function SignUp() {
       <div className="tf-container">
         <div className="row">
           <Tabs className="wd-form-login tf-tab">
-            <h4>Create Link free account</h4>
+            <h4>Créez votre compte</h4>
             <TabList className="menu-tab">
-              <Tab className="ct-tab">Candidate</Tab>
-              <Tab className="ct-tab">Employer</Tab>
+              <Tab className="ct-tab">Particulier</Tab>
+              <Tab className="ct-tab">Investisseur</Tab>
             </TabList>
             <div className="content-tab">
               <TabPanel className="inner animation-tab">
                 <form action="/">
                   <div className="ip">
                     <label>
-                      Username or email address<span>*</span>
+                      Email<span>*</span>
                     </label>
                     <input
                       type="text"
@@ -33,7 +33,7 @@ function SignUp() {
                   </div>
                   <div className="ip">
                     <label>
-                      Password<span>*</span>
+                      Mot de passe<span>*</span>
                     </label>
                     <div className="inputs-group auth-pass-inputgroup">
                       <input
@@ -53,7 +53,7 @@ function SignUp() {
                   </div>
                   <div className="ip">
                     <label>
-                      Confirm Password<span>*</span>
+                    Confirmez votre mot de passe<span>*</span>
                     </label>
                     <div className="inputs-group auth-pass-inputgroup">
                       <input
@@ -73,14 +73,13 @@ function SignUp() {
                   </div>
                   <div className="group-ant-choice st">
                     <div className="sub-ip">
-                      <input type="checkbox" />I agree to the
-                      <Link to="/termsofuse"> Terms of User</Link>
+                      <input type="checkbox" />En cliquant sur « Créer mon compte », vous acceptez <Link to="/termsofuse">nos conditions générales d'utilisation</Link>. On procède au traitement de vos données afin de gérer votre compte.
                     </div>
                   </div>
                   <button type="submit">Register</button>
                   <div className="sign-up">
-                    Already have an account?
-                    <Link to="/login">&nbsp;Login Here</Link>
+                    Vous avez déjà un compte ?
+                    <Link to="/login">&nbsp;Connectez-vous</Link>
                   </div>
                 </form>
               </TabPanel>
@@ -88,7 +87,7 @@ function SignUp() {
                 <form action="/">
                   <div className="ip">
                     <label>
-                      Username or email address<span>*</span>
+                      Email<span>*</span>
                     </label>
                     <input
                       type="text"
@@ -138,8 +137,7 @@ function SignUp() {
                   </div>
                   <div className="group-ant-choice st">
                     <div className="sub-ip">
-                      <input type="checkbox" />I agree to the
-                      <Link to="/termsofuse"> Terms of User</Link>
+                      <input type="checkbox" />En cliquant sur « Créer mon compte », vous acceptez <Link to="/termsofuse">nos conditions générales d'utilisation</Link>. On procède au traitement de vos données afin de gérer votre compte.
                     </div>
                   </div>
                   <button>Register</button>

@@ -99,7 +99,7 @@ function ContactUs(props) {
                 </span>
               </div>
               <div className="content">
-                <p>Need help? 24/7</p>
+                <p>Besoin d'aide ?</p>
                 <h6>
                   <Link to="tel:0806079379">08 06 07 93 79</Link>
                 </h6>

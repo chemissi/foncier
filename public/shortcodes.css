@@ -5335,7 +5335,7 @@
 
 .tab-term li {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 28px;
   text-transform: capitalize;
   color: #121212;
@@ -5355,7 +5355,7 @@
 }
 
 .tab-term li:not(:last-child) {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .term-content {
@@ -5373,7 +5373,7 @@
 .term-content p,
 .term-content .list-dot li {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 28px;
   color: #64666c;
   margin-bottom: 12px;
@@ -5608,9 +5608,9 @@
 
 .wd-form-login .menu-tab li:hover,
 .wd-form-login .menu-tab li.react-tabs__tab--selected {
-  background: rgba(20, 129, 96, 0.1);
+  background: rgb(0 35 57);
   border-radius: 4px;
-  color: #ed6607;
+  color: #ffffff;
 }
 
 .wd-form-login .group-ant-choice.st {
@@ -10685,6 +10685,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .candidates-section,
 .pricing-section-three,
 .shop-section {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 

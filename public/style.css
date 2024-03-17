@@ -653,6 +653,40 @@ input[type="color"],
   margin-right: 40px;
 }
 
+.header-customize-item a {
+  padding: 11px 32px;
+    background: #ed6607;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    border-color: transparent;
+    text-transform: capitalize;
+}
+
+.header-customize-item a:hover {
+  background-color: #002238;
+}
+
+.header-customize-item-2 a {
+  padding: 11px 32px;
+    background: #ed6607;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    border-color: transparent;
+    text-transform: capitalize;
+    text-align: center;
+    width: 100%;
+}
+
+.header-customize-item-2 a:hover {
+  background-color: #002238;
+}
+
 .header-customize-item.login,
 .header-customize-item.login .item-login {
   display: flex;

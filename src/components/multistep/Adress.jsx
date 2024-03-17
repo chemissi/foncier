@@ -1,11 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Sidebar from "./Sidebar";
+import Sidebar from "../jobs/Sidebar";
 import { Link } from "react-router-dom";
 
-CandiSec7.propTypes = {};
+Adress.propTypes = {};
 
-function CandiSec7(props) {
+function Adress(props) {
   const { data } = props;
   return (
     <section className="candidates-section">
@@ -18,7 +18,7 @@ function CandiSec7(props) {
 
           <div className="col-lg-6 tf-tab ctn2">
             <div className="group-select-display">
-              <p className="nofi-job"> Carte</p>
+              <p className="nofi-job">Google Maps</p>
             </div>
           </div>
          
@@ -28,4 +28,4 @@ function CandiSec7(props) {
   );
 }
 
-export default CandiSec7;
+export default Adress;

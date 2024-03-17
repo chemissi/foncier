@@ -11,19 +11,19 @@ function SignIn() {
       <div className="tf-container">
         <div className="row">
           <div className="wd-form-login">
-            <h4>Log In</h4>
+            <h4>Connectez-vous</h4>
             <div className="nofi-form">
               <p>
-                Username: <span>candidate</span> or <span>employer</span>
+                Username: <span>Ghassen</span>
               </p>
               <p>
-                Password: <span>jobtex</span>
+                Password: <span>Test</span>
               </p>
             </div>
             <form action="/">
               <div className="ip">
                 <label>
-                  Username or email address<span>*</span>
+                  Email<span>*</span>
                 </label>
                 <input
                   type="text"
@@ -33,7 +33,7 @@ function SignIn() {
               </div>
               <div className="ip">
                 <label>
-                  Password<span>*</span>
+                 Mot de passe<span>*</span>
                 </label>
                 <div className="inputs-group auth-pass-inputgroup">
                   <input
@@ -55,27 +55,16 @@ function SignIn() {
               <div className="group-ant-choice">
                 <div className="sub-ip">
                   <input type="checkbox" />
-                  Remember me
+                  Rester connecté
                 </div>
                 <Link to="#" className="forgot">
-                  Fogot password?
+                  J’ai oublié mon mot de passe
                 </Link>
               </div>
-              <p className="line-ip">
-                <span>or sign up with</span>
-              </p>
-              <Link to="#" className="btn-social">
-                Continue with Facebook
-              </Link>
-              <Link to="#" className="btn-social">
-                <img src={img} alt="images" /> Continue with Google
-              </Link>
-              <Link to="#" className="btn-social">
-                <img src={img2} alt="images" /> Continue with Twitter
-              </Link>
+              
               <button type="submit">Login</button>
               <div className="sign-up">
-                Not registered yet? <Link to="/createaccount">Sign Up</Link>
+              Vous n’avez pas encore de compte ? <Link to="/createaccount">Inscrivez-vous</Link>
               </div>
             </form>
           </div>

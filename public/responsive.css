@@ -32,6 +32,7 @@
   .header-customize-item.account .name {
     display: none;
   }
+ 
 
   .sticky-area-wrap .header-ct-right .account img {
     max-width: 40px;
@@ -798,8 +799,6 @@
     margin-bottom: 15px;
   }
 
-
-
   .group-half-map.style2 .content-left {
     flex-wrap: wrap;
   }
@@ -1446,7 +1445,9 @@
     display: inline-block;
   }
 
-
+  .header-customize-item a {
+    display: none;
+  }
 
   .stc .wd-findjob-filer {
     display: flex;

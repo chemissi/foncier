@@ -31,10 +31,8 @@ function Banner08(props) {
                         placeholder="Indiquez l'adresse de votre bien"
                       />
                     </div>
-                    <div className="form-group-4">
-                      <button type="submit" className="btn btn-find">
-                        ESTIMER
-                      </button>
+                    <div className="form-group-4 header-customize-item-2">
+                      <Link type="submit" to="/estimate">ESTIMER</Link>
                     </div>
                   </div>
                 </form>

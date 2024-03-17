@@ -1,16 +1,21 @@
 import React from "react";
+import PropTypes from "prop-types";
 import HeaderHome2 from "../components/header/HeaderHome2";
+
 import Breadcrumb from "../components/breadcrumb";
 import Footer from "../components/footer";
 import Gotop from "../components/gotop";
-import SignUp from "../components/signUp";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { Collapse } from "react-collapse";
 import logo from "../assets/images/logo.png";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import Header4 from "../components/header/Header4";
+import Adress from "../components/multistep/Adress";
 
-function CreateAccount(props) {
+Estimate.propTypes = {};
+
+function Estimate(props) {
   const [toggle, setToggle] = useState({
     key: "",
     status: false,
@@ -37,7 +42,6 @@ function CreateAccount(props) {
       ? getMobile.classList.add("modal-menu--open")
       : getMobile.classList.remove("modal-menu--open");
   };
-
   return (
     <>
       <div className="menu-mobile-popup">
@@ -85,7 +89,7 @@ function CreateAccount(props) {
             </div>
           </Tabs>
           <div className="header-customize-item button">
-            <Link to="/">CONNEXION</Link>
+            <Link to="/">ESTIMER</Link>
           </div>
           <div className="mobile-footer">
             <div className="icon-infor d-flex aln-center">
@@ -107,23 +111,33 @@ function CreateAccount(props) {
             <div className="wd-social d-flex aln-center">
               <ul className="list-social d-flex aln-center">
                 <li>
-                  <Link to="https://www.facebook.com/FoncierOnline" target='_blank'>
+                  <Link to="#">
                     <i className="icon-facebook"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="https://www.linkedin.com/company/foncieronline/" target='_blank'>
+                  <Link to="#">
                     <i className="icon-linkedin2"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="https://twitter.com/i/flow/login?redirect_after_login=%2FFoncierOnline" target='_blank'>
+                  <Link to="#">
                     <i className="icon-twitter"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="https://www.instagram.com/foncieronline/" target='_blank'>
+                  <Link to="#">
+                    <i className="icon-pinterest"></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#">
                     <i className="icon-instagram1"></i>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="#">
+                    <i className="icon-youtube"></i>
                   </Link>
                 </li>
               </ul>
@@ -133,12 +147,14 @@ function CreateAccount(props) {
       </div>
 
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
-      <Breadcrumb title="Inscription" />
-      <SignUp />
+      <Breadcrumb title="Estimation" />
+      
+      <Adress />
+
       <Footer />
       <Gotop />
     </>
   );
 }
 
-export default CreateAccount;
+export default Estimate;

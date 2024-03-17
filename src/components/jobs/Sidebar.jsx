@@ -15,23 +15,6 @@ const select2 = [
   { value: "s2", label: "Remote" },
   { value: "s3  ", label: "Freelancer" },
 ];
-const select3 = [
-  { value: "s1", label: "All Job Types" },
-  { value: "s2", label: "SoftWere" },
-  { value: "s3  ", label: "Website" },
-];
-const select4 = [
-  { value: "s1", label: "Posted Anytime " },
-  { value: "s3  ", label: "Website" },
-];
-const select5 = [
-  { value: "s1", label: "All Seniority Levels " },
-  { value: "s2", label: "Website" },
-];
-const select6 = [
-  { value: "s1", label: "Company" },
-  { value: "s2", label: "Website" },
-];
 
 Sidebar.propTypes = {};
 
@@ -40,27 +23,27 @@ function Sidebar(props) {
     <div className="widget-filter st2  style-scroll po-sticky">
       <form>
         <div className="group-form">
-          <label className="title">Search Company</label>
-          <div className="group-input search-ip">
-            <button>
-              <i className="icon-search"></i>
-            </button>
-            <input
-              type="text"
-              placeholder="Job title, key words or company"
-              required
-            />
-          </div>
-        </div>
-        <div className="group-form">
-          <label className="title">Location</label>
+          <label className="title">Adresse</label>
           <div className="group-input has-icon">
             <i className="icon-map-pin"></i>
             <SelectLocation />
           </div>
         </div>
         <div className="group-form">
-          <label className="title">Job Title</label>
+          <label className="title">Code Postal</label>
+          <div className="group-input search-ip">
+            <button>
+              <i className="icon-search"></i>
+            </button>
+            <input
+              type="text"
+              placeholder="Code Postal"
+              required
+            />
+          </div>
+        </div>
+        <div className="group-form">
+          <label className="title">Ville</label>
           <div className="group-input">
             <Dropdown
               options={select1}
@@ -69,6 +52,8 @@ function Sidebar(props) {
             />
           </div>
         </div>
+        
+      
         <div className="group-form">
           <label className="title">On-site/Remote</label>
           <div className="group-input">
@@ -79,50 +64,9 @@ function Sidebar(props) {
             />
           </div>
         </div>
-        <div className="group-form">
-          <label className="title">Job Types</label>
-          <div className="group-input">
-            <Dropdown
-              options={select3}
-              className="react-dropdown select2"
-              value={select3[0]}
-            />
-          </div>
-        </div>
-        <RangeTwo title="Salary:" />
-        <RangeOne miles="Miles" title="Radius:" />
-
-        <div className="group-form">
-          <label className="title">Posted Anytime</label>
-          <div className="group-input">
-            <Dropdown
-              options={select4}
-              className="react-dropdown select2"
-              value={select4[0]}
-            />
-          </div>
-        </div>
-        <div className="group-form">
-          <label className="title">All Seniority Levels</label>
-          <div className="group-input">
-            <Dropdown
-              options={select5}
-              className="react-dropdown select2"
-              value={select5[0]}
-            />
-          </div>
-        </div>
-        <div className="group-form">
-          <label className="title">Company</label>
-          <div className="group-input">
-            <Dropdown
-              options={select6}
-              className="react-dropdown select2"
-              value={select6[0]}
-            />
-          </div>
-        </div>
-        <button type="submit">Find Jobs</button>
+       
+        
+        <button type="submit">VALIDEZ L'ADRESSE </button>
       </form>
     </div>
   );
