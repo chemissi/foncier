@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import SelectLocation from "../dropdown";
 import Cover from "../../assets/images/slider/slider3.jpg"
+import AutofillCheckout from "../multistep/AutofillCheckout";
 
 Banner08.propTypes = {};
 
@@ -22,7 +23,7 @@ function Banner08(props) {
               </div>
               <div className="form-sl">
                 <form action="/job-list-sidebar">
-                  <div className="row-group-search home1 st">
+                  {/*<div className="row-group-search home1 st">
                     <div className="form-group-1">
                       <span className="icon-map-pin search-job"></span>
                       <input
@@ -30,11 +31,13 @@ function Banner08(props) {
                         className="input-filter-search"
                         placeholder="Indiquez l'adresse de votre bien"
                       />
+                     
                     </div>
                     <div className="form-group-4 header-customize-item-2">
                       <Link type="submit" to="/estimate">ESTIMER</Link>
                     </div>
-                  </div>
+                  </div>*/}
+                  <AutofillCheckout />
                 </form>
               </div>
             </div>

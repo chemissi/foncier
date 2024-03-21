@@ -27,7 +27,7 @@ function SignUp() {
                     </label>
                     <input
                       type="text"
-                      defaultValue="Tony Nguyen"
+                      defaultValue="ghassen@foncieronline.fr"
                       placeholder="Name"
                     />
                   </div>
@@ -39,7 +39,7 @@ function SignUp() {
                       <input
                         type={`${showPass ? "text" : "password"}`}
                         className="input-form password-input"
-                        defaultValue="userabcdefg123"
+                        defaultValue="user123"
                         placeholder="Password"
                         required
                       />
@@ -59,7 +59,7 @@ function SignUp() {
                       <input
                         type={`${showPass2 ? "text" : "password"}`}
                         className="input-form password-input"
-                        defaultValue="userabcdefg123"
+                        defaultValue="user123"
                         placeholder="Password"
                         required
                       />
@@ -91,7 +91,7 @@ function SignUp() {
                     </label>
                     <input
                       type="text"
-                      defaultValue="Tony Nguyen"
+                      defaultValue="ghassen@foncieronline.fr"
                       placeholder="Name"
                     />
                   </div>
@@ -103,7 +103,7 @@ function SignUp() {
                       <input
                         type={`${showPass3 ? "text" : "password"}`}
                         className="input-form password-input"
-                        defaultValue="userabcdefg123"
+                        defaultValue="user123"
                         placeholder="Password"
                         required
                       />
@@ -123,7 +123,7 @@ function SignUp() {
                       <input
                         type={`${showPass4 ? "text" : "password"}`}
                         className="input-form password-input"
-                        defaultValue="userabcdefg123"
+                        defaultValue="user123"
                         placeholder="Password"
                         required
                       />

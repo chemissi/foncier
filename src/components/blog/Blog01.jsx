@@ -23,16 +23,17 @@ function Blog01(props) {
           {data.slice(0, 3).map((idx) => (
             <div key={idx.id} className="col-lg-4 wow fadeInUp">
               <div className="box-latest">
+              <Link to="/blog" className="tag">
                 <div className="img-latest">
                   <img src={idx.img} alt="Jobtex" />
                 </div>
                 <div className="box-content">
                   <div className="heading">
-                    <Link to="blog" className="tag">
+                    <div className="tag">
                       {idx.cate}
-                    </Link>
+                    </div>
                     <h3>
-                      <Link to="blog"> {idx.title}</Link>
+                      {idx.title}
                     </h3>
                   </div>
                   <ul className="date-post">
@@ -43,6 +44,7 @@ function Blog01(props) {
                     </li>
                   </ul>
                 </div>
+                </Link>
               </div>
             </div>
           ))}

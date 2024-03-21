@@ -166,7 +166,7 @@
   line-height: 30px;
   color: #121212;
   margin-bottom: 8px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .widget-blog-1 .content .meta {
@@ -447,7 +447,7 @@
 .tf-button.style-1 {
   border: 1px solid #ed6607;
   padding: 12px 30px;
-  text-transform: capitalize;
+  text-transform: none;
   border-radius: 4px;
 }
 
@@ -579,7 +579,7 @@
   transition: all 0.3s ease-in-out;
   font-weight: 700;
   color: #121212;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .box-latest .box-content h3 a:hover {
@@ -934,7 +934,7 @@
   line-height: 24px;
   color: #64666c;
   font-family: "DM Sans";
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .wd-review-job .icon-review .icon {
@@ -1048,7 +1048,7 @@
 
 .wd-review-job .list-review2 li h6 {
   margin-bottom: 6px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .wd-review-job .list-review2 li {
@@ -1262,7 +1262,7 @@
 .wd-testimonials .author-group h6 {
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
 }
 
@@ -1525,7 +1525,7 @@
   gap: 10px;
   align-items: center;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .btn-view:hover {
@@ -1811,7 +1811,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .tf-sl3.wd-review-job.thumb2 .tes-box .content .des {
@@ -1911,7 +1911,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #040b11;
   margin-bottom: 3px;
 }
@@ -2182,7 +2182,7 @@
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   padding: 8px 24px;
   background: #f5f5f2;
@@ -2297,7 +2297,7 @@
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 17px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .job-article .inner-content h6 {
@@ -2305,7 +2305,7 @@
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 16px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .job-article .inner-content>p {
@@ -2884,7 +2884,7 @@
 .wd-cv-item .item-group .content-left h6 {
   font-size: 24px;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 18px;
 }
 
@@ -2984,7 +2984,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #b1b1b1;
   padding-bottom: 12px;
   border-bottom: 2px solid #148160;
@@ -2995,7 +2995,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 23px;
 }
 
@@ -3050,7 +3050,7 @@
 .cv-road-map .inner .content h6 {
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 4px;
 }
 
@@ -3096,7 +3096,7 @@
 .cv-form-details h6 {
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 17px;
 }
 
@@ -3183,7 +3183,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .cv-form-details .preview-cv .icon {
@@ -3202,7 +3202,7 @@
   display: block;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   text-align: center;
 }
@@ -3271,7 +3271,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #ffffff;
   border-color: transparent;
   width: 100%;
@@ -3362,7 +3362,7 @@
 .wd-cv-template .content h6 {
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 5px;
 }
 
@@ -3445,7 +3445,7 @@
 .wd-banner-rating h6 {
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-right: 35px;
 }
 
@@ -3477,7 +3477,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   margin-bottom: 12px;
 }
@@ -3589,7 +3589,7 @@
   border-radius: 4px;
   color: #fff;
   border: 1px solid #ed6607;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .widget-filter button:hover {
@@ -4087,7 +4087,7 @@
 
 .wd-popup-form .content .content-right h6 {
   margin-bottom: 8px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .wd-popup-form .content .content-right input[type="text"] {
@@ -4195,7 +4195,7 @@
   display: block;
   width: 100%;
   border-color: transparent;
-  text-transform: capitalize;
+  text-transform: none;
   padding: 11px 32px;
 }
 
@@ -4347,7 +4347,7 @@
   margin-bottom: 0;
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .wd-popup-job-apply .group-heading .title-button-group {
@@ -4515,7 +4515,7 @@
 .group-select-display .menu-tab .ct-tab {
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   cursor: pointer;
   border-bottom: 2px solid #e5e5e5;
@@ -4610,7 +4610,7 @@
 .job-article.single-job .menu-tab li {
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   cursor: pointer;
   border-bottom: 2px solid transparent;
@@ -5002,7 +5002,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   margin-bottom: 4px;
 }
@@ -5022,7 +5022,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #64666c;
   margin-bottom: 13px;
 }
@@ -5135,7 +5135,7 @@
   line-height: 26px;
   color: #ffffff;
   border-color: transparent;
-  text-transform: capitalize;
+  text-transform: none;
   margin-top: 25px;
 }
 
@@ -5178,7 +5178,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0s;
@@ -5246,7 +5246,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   cursor: pointer;
   /* -webkit-transition: all 0.3s ease 0s;
@@ -5337,7 +5337,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   cursor: pointer;
   padding: 9px 0;
@@ -5367,7 +5367,7 @@
 }
 
 .term-content h6 {
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .term-content p,
@@ -5556,7 +5556,7 @@
   text-align: center;
   color: #fff;
   border-color: #ed6607;
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
@@ -5596,7 +5596,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0s;
@@ -5655,7 +5655,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #ffffff;
   margin-bottom: 8px;
 }
@@ -5732,7 +5732,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 8px;
 }
 
@@ -5751,7 +5751,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #ffffff;
   transition: 0.3s;
 }
@@ -5767,7 +5767,7 @@
 }
 
 .group-pricing-v1 h6 {
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 15px;
   text-align: center;
 }
@@ -5788,7 +5788,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #b1b1b1;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -5823,7 +5823,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #64666c;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -5862,7 +5862,7 @@
   font-weight: 600;
   font-size: 30px;
   line-height: 42px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   margin-bottom: 28px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -5901,7 +5901,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   width: 100%;
 }
@@ -6031,7 +6031,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 22px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #64666c;
 }
 
@@ -6059,7 +6059,7 @@
 }
 
 .shop-details .shop-content h5 {
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 10px;
 }
 
@@ -6157,7 +6157,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   border: unset;
   border-left: 1px solid #e5e5e5;
@@ -6171,7 +6171,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #ffffff;
   border-color: transparent;
 }
@@ -6209,7 +6209,7 @@
 .shop-details .shop-content .title2 {
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 17px;
 }
 
@@ -6227,7 +6227,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   font-family: "Plus Jakarta Sans";
 }
@@ -6256,7 +6256,7 @@
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 0;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .job-rating .group-title .btn {
@@ -6264,7 +6264,7 @@
   font-size: 16px;
   line-height: 26px;
   color: #121212;
-  text-transform: capitalize;
+  text-transform: none;
   padding: 8px 20px;
   border: 1px solid #ed6607;
   border-radius: 4px;
@@ -6350,7 +6350,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #b1b1b1;
   border-bottom: 2px solid transparent;
   -webkit-transition: all 0.3s ease-in-out;
@@ -6376,7 +6376,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   margin-bottom: 12px;
 }
@@ -6421,7 +6421,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   margin-left: 22px;
 }
@@ -6470,14 +6470,14 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   width: 20%;
 }
 
 .shopping-cart h6 {
   margin-bottom: 24px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .shopping-cart .list-shop li .delete {
@@ -6521,7 +6521,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #ffffff;
   border: unset;
 }
@@ -6539,7 +6539,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
 }
 
@@ -6565,7 +6565,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
 }
 
@@ -6636,7 +6636,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
 }
 
@@ -6644,7 +6644,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
 }
 
@@ -6656,7 +6656,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #ffffff;
   margin-bottom: 24px;
 }
@@ -6880,7 +6880,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   color: #121212;
   padding: 11px 32px;
   border: 1px solid #ed6607;
@@ -7820,7 +7820,7 @@ button.btn-find:hover {
   transition: all 0.3s ease-in-out;
   font-weight: 700;
   color: #121212;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .home-box-item h2 a:not(.jobtex-link-item),
@@ -8897,7 +8897,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .tf-iconbox .box-content .box-title {
   line-height: 28px;
   font-size: 20px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .tf-iconbox .box-content .box-title a:hover {
@@ -8914,7 +8914,7 @@ input[type="number"]::-webkit-inner-spin-button {
   color: #64666c;
   font-size: 16px;
   line-height: 24px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .title-iconbox.style-2,
@@ -8943,6 +8943,10 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .tf-iconbox .box-header .icon {
   margin-bottom: 20px;
+}
+
+.wd-iconbox.style-1 {
+  padding-bottom: 70px
 }
 
 .wd-iconbox.style-1 .group-iconbox {
@@ -9057,7 +9061,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .wd-partner h1 {
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
@@ -9120,7 +9124,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .wd-thum-career .tf-btn {
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .wd-thum-career .job-archive-header .career-info li {
@@ -9396,7 +9400,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .tf-btn-submit {
-  text-transform: capitalize;
+  text-transform: none;
   background-color: #ed6607;
   color: #ffffff;
   padding: 8px 20px;
@@ -9499,7 +9503,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .wd-form-rating .tf-btn-submit.style-2 {
   padding: 12px 28px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 /* wd-job-author */
@@ -9570,14 +9574,14 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .wd-job-author .inner-job-right .tf-btn-submit {
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 12px;
   padding: 12px 32px;
 }
 
 .wd-job-author .inner-job-right .tf-btn {
   padding: 12px 54.5px;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 /* wd-author-page-title */
@@ -9666,7 +9670,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .wrapper-author-page-title .tf-btn {
-  text-transform: capitalize;
+  text-transform: none;
   border: 1px solid #ffffff;
   color: #ed6607;
   width: 184px;
@@ -9684,7 +9688,7 @@ input[type="number"]::-webkit-inner-spin-button {
   margin-left: 16px;
   padding: 12px 56.5px;
   border: 1px solid #ffffff;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 /* jobs tab */
@@ -9813,7 +9817,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .wd-meta-select-job button {
-  text-transform: capitalize;
+  text-transform: none;
   display: block;
   padding: 12px 16px;
   background-color: #ed6607;
@@ -9848,7 +9852,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .group-banner-CTA h3 {
-  text-transform: capitalize;
+  text-transform: none;
   color: #ffffff;
   font-size: 36px;
   line-height: 44px;
@@ -9869,7 +9873,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .group-banner-CTA .tf-btn {
-  text-transform: capitalize;
+  text-transform: none;
   border: 1px solid #ffffff;
   color: #ed6607;
   width: 184px;
@@ -9953,12 +9957,12 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .wd-shop .inner-box .group-btn button {
-  text-transform: capitalize;
+  text-transform: none;
   margin-top: 8px;
 }
 
 .wd-shop h3 {
-  text-transform: capitalize;
+  text-transform: none;
   padding-bottom: 8px;
 }
 
@@ -10184,7 +10188,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .wd-payment .btn-payment {
-  text-transform: capitalize;
+  text-transform: none;
   background-color: #ed6607;
   border: none;
   padding: 12px 0px;
@@ -11433,7 +11437,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .home-box-item.st2 .content h2 {
   font-size: 24px;
   line-height: 30px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 12px;
 }
 
@@ -11598,7 +11602,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .select-language .filter-option-inner-inner,
 .select-language .bootstrap-select .dropdown-menu li a span.text {
-  text-transform: capitalize;
+  text-transform: none;
   font-size: 14px;
   line-height: 25px;
 }
@@ -11697,7 +11701,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .btn-primary {
   background-color: #ed6607;
   border: 1px solid #ed6607;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .btn-primary:focus,

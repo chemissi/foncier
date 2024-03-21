@@ -1,13 +1,34 @@
 import React from 'react';
+import { useEffect, useState } from "react";
+
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import ChatBotHelper from '../chatbot'
 
 
 Footer.propTypes = {
     
 };
 
+export const useScrollPosition = () => {
+    const [scrollPos, setScrollPos] = useState(false);
+  
+    useEffect(() => {
+      if (typeof window !== "undefined") {
+        window.addEventListener("scroll", () => {
+          if (window.pageYOffset > 1000) {
+            setScrollPos(true);
+          }else{
+            setScrollPos(false);
+          }
+        });
+      }
+    }, []);
+    return { scrollPos };
+  };
+
 function Footer(props) {
+    const { scrollPos } = useScrollPosition();
     return (
         <footer className="footer">
                 <div className="top-footer">
@@ -54,7 +75,9 @@ function Footer(props) {
                             <button className="tf-button" type="submit" id="subscribe-button"><i
                                 className="icon-paper-plane-o"></i></button>
                         </form>
+                        
                         </div>
+                        
                     </div>
                     <div className="col-lg-2 col-md-6 col-6">
                         <div className="footer-cl-2">
@@ -101,6 +124,7 @@ function Footer(props) {
                 <div className="bottom">
                 <div className="tf-container">
                     <div className="row">
+                    
                     <div className="col-lg-6 col-md-6">
                         <div className="bt-left">
                         <div className="copyright">© 2024 FoncierOnline – Tous droits réservés.</div>
@@ -109,6 +133,9 @@ function Footer(props) {
                     </div>
                 </div>
                 </div>
+
+                {scrollPos && <ChatBotHelper/>}
+
             </footer>
     );
 }

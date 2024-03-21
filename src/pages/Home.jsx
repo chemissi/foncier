@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import HeaderHome2 from "../components/header/HeaderHome2";
 import PopUpForm from "../components/popup";
@@ -9,6 +10,7 @@ import dataPartner from "../assets/fakeData/dataPartner";
 import IconBox from "../components/iconbox";
 //import ReviewJob from "../components/jobs/ReviewJob";
 //import About from "../components/about";
+//import BoxIcon from "../components/boxicon";
 
 import Blog01 from "../components/blog/Blog01";
 import dataBlog from "../assets/fakeData/dataBlog";
@@ -16,7 +18,6 @@ import dataBlog from "../assets/fakeData/dataBlog";
 import Testimonials from "../components/testimonials";
 import dataTestimonials from "../assets/fakeData/dataTestimonials";
 import About05 from "../components/about/About05";
-import BoxIcon from "../components/boxicon";
 import Box09 from "../components/boxicon/Box09";
 //import ReviewJob09 from "../components/jobs/ReviewJob09";
 import Footer from "../components/footer";
@@ -25,14 +26,13 @@ import Footer from "../components/footer";
 import Banner08 from "../components/banner/Banner08";
 
 import Gotop from "../components/gotop";
-import { useEffect } from "react";
 import { Collapse } from "react-collapse";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/logo.png";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
-import { useState } from "react";
 import Estimate from "./Estimate";
+
 
 Home.propTypes = {};
 
@@ -42,19 +42,11 @@ function Home(props) {
     status: false,
   });
   const [isShowMobile, setShowMobile] = useState(false);
+  
+  
+  
 
-  const handleToggle = (key) => {
-    if (toggle.key === key) {
-      setToggle({
-        status: false,
-      });
-    } else {
-      setToggle({
-        status: true,
-        key,
-      });
-    }
-  };
+
 
   const handleMobile = () => {
     const getMobile = document.querySelector(".menu-mobile-popup");
@@ -184,7 +176,7 @@ function Home(props) {
 
       {/*<About className="review-job-section" />*/}
 
-      <BoxIcon />
+      {/*<BoxIcon />*/}
       <Box09 />
 
       <Blog01 data={dataBlog} className="news-section" />

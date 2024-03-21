@@ -13,7 +13,7 @@ function BlogSec2(props) {
     <div className="tf-container">
       <div className="group-col-3">
         {
-            data.slice(3,12).map(idx => (
+            data.slice(0,9).map(idx => (
                 <div key={idx.id} className="widget-blog-1 style-1 cl3 stc">
                     <div className="img-blog">
                     <img src={idx.img} alt="image" />
@@ -34,8 +34,8 @@ function BlogSec2(props) {
       </div>
       <ul className="pagination-job">
         <li><Link to="#"><i className="icon-keyboard_arrow_left"></i></Link></li>
-        <li><Link to="#">1</Link></li>
-        <li className="current"><Link to="#">2</Link></li>
+        <li className="current"><Link to="#">1</Link></li>
+        <li><Link to="#">2</Link></li>
         <li><Link to="#">3</Link></li>
         <li><Link to="#"><i className="icon-keyboard_arrow_right"></i></Link></li>
       </ul>

@@ -662,7 +662,7 @@ input[type="color"],
     line-height: 26px;
     color: #ffffff;
     border-color: transparent;
-    text-transform: capitalize;
+    text-transform: none;
 }
 
 .header-customize-item a:hover {
@@ -678,7 +678,7 @@ input[type="color"],
     line-height: 26px;
     color: #ffffff;
     border-color: transparent;
-    text-transform: capitalize;
+    text-transform: none;
     text-align: center;
     width: 100%;
 }
@@ -1530,7 +1530,7 @@ input[type="color"],
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  text-transform: capitalize;
+  text-transform: none;
   transition: 0.3s;
 }
 
@@ -1538,7 +1538,7 @@ input[type="color"],
   background: #ed6607;
   padding: 12px 32px;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: none;
 
 }
 
@@ -2315,7 +2315,7 @@ input[type="color"],
 .blog-detail-side-bar-content>h5 {
   line-height: 30px;
   font-size: 24px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 16px;
 }
 
@@ -2412,12 +2412,13 @@ input[type="color"],
 }
 
 .blog-detail-side-bar-content .nav-links p {
-  text-transform: capitalize;
+  text-transform: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   color: #121212;
 }
+
 
 .blog-detail-side-bar-content .nav-links .previous-post {
   border-right: 1px solid #e5e5e5;
@@ -2994,26 +2995,26 @@ input[type="color"],
 -------------------------------------------------------------- */
 #scroll-top {
   position: fixed;
-  display: block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  border-radius: 4px;
-  text-align: center;
-  z-index: 999;
-  right: 14px;
-  bottom: 23px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  cursor: pointer;
-  background: #fff;
-  right: 15px;
-  opacity: 1;
-  visibility: visible;
-  overflow: hidden;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 4px;
+    text-align: center;
+    z-index: 99;
+    right: 14px;
+    bottom: 34px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    right: 98px;
+    opacity: 1;
+    visibility: visible;
+    overflow: hidden;
 }
 
 #scroll-top:before,
@@ -3043,6 +3044,28 @@ input[type="color"],
   color: #ffffff;
   font-weight: 600;
 }
+
+/*chatbot*/
+.hdtKBv {
+  color: #fff ;
+}
+
+.hMCxPQ {
+  border: 2px #fff solid
+}
+
+.hMCxPQ:hover {
+  transform: translateY(-7%);
+}
+
+
+
+@media screen and (max-width: 568px){
+  .Apomz {
+      height: 70% !important;
+  }
+}
+
 
 /* @Keyframe */
 @keyframes rotating {

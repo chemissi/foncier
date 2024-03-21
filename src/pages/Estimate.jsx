@@ -9,13 +9,16 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { Collapse } from "react-collapse";
 import logo from "../assets/images/logo.png";
 import { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useParams } from "react-router-dom";
 import Header4 from "../components/header/Header4";
 import Adress from "../components/multistep/Adress";
+
+
 
 Estimate.propTypes = {};
 
 function Estimate(props) {
+    
   const [toggle, setToggle] = useState({
     key: "",
     status: false,
@@ -42,6 +45,9 @@ function Estimate(props) {
       ? getMobile.classList.add("modal-menu--open")
       : getMobile.classList.remove("modal-menu--open");
   };
+
+
+  
   return (
     <>
       <div className="menu-mobile-popup">
@@ -57,6 +63,7 @@ function Estimate(props) {
               <i className="icon-close"></i>
             </Link>
           </div>
+          
           <Tabs className="tf-tab">
             <div className="content-tab">
               <TabPanel className="header-ct-center menu-moblie animation-tab">

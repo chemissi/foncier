@@ -10,7 +10,7 @@ function BlogSec3(props) {
     <section className="blog-section">
       <div className="tf-container">
         <div className="masonry-wrap">
-          {data.slice(12, 21).map((idx) => (
+          {data.slice(0, 9).map((idx) => (
             <div key={idx.id} className="widget-blog-1 style-1 stc">
               <div className="img-blog">
                 <img src={idx.img} alt="image" />

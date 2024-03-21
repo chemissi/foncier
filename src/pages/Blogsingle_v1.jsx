@@ -1,9 +1,10 @@
 import React from "react";
-import Header2 from "../components/header/Header2";
+import HeaderHome2 from "../components/header/HeaderHome2";
 import Footer from "../components/footer";
 import Blog01 from "../components/blog/Blog01";
 import dataBlog from "../assets/fakeData/dataBlog";
-import { Link } from "react-router-dom";
+
+import { Link, NavLink } from "react-router-dom";
 import Gotop from "../components/gotop";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { Collapse } from "react-collapse";
@@ -54,424 +55,40 @@ function Blogsingle_v1(props) {
               <i className="icon-close"></i>
             </Link>
           </div>
-
           <Tabs className="tf-tab">
-            <TabList className="menu-tab">
-              <Tab className="user-tag">Menu</Tab>
-              <Tab className="user-tag">Categories</Tab>
-            </TabList>
-
             <div className="content-tab">
               <TabPanel className="header-ct-center menu-moblie animation-tab">
                 <div className="nav-wrap">
                   <nav className="main-nav mobile">
                     <ul id="menu-primary-menu" className="menu">
-                      <li className="menu-item menu-item-has-children-mobile">
-                        <Link
-                          to="#"
-                          className="iteam-menu"
-                          onClick={() => {
-                            handleToggle("home");
-                          }}
-                        >
-                          Home
-                        </Link>
-                        <Collapse isOpened={toggle.key === "home"}>
-                          <ul
-                            className="sub-menu-mobile"
-                            style={{
-                              display: `${
-                                toggle.key === "home" ? "block" : "none"
-                              }`,
-                            }}
-                          >
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/">Home Page 01 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v2">Home Page 02 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/Home">Home Page 03 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v4">Home Page 04 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v5">Home Page 05 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v6">Home Page 06 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v7">Home Page 07 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v8">Home Page 08 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v9">Home Page 09 </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/home_v10">Home Page 10 </Link>
-                            </li>
-                          </ul>
-                        </Collapse>
-                      </li>
 
-                      <li className="menu-item menu-item-has-children-mobile">
-                        <Link
-                          to="#"
-                          className="iteam-menu"
-                          onClick={() => {
-                            handleToggle("job");
-                          }}
-                        >
-                          Find jobs
-                        </Link>
-                        <Collapse isOpened={toggle.key === "job"}>
-                          <ul
-                            className="sub-menu-mobile"
-                            style={{
-                              display: `${
-                                toggle.key === "job" ? "block" : "none"
-                              }`,
-                            }}
-                          >
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/joblist_v1">List Layout</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/job-grid">Grid Layout</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/job-list-sidebar">List Sidebar</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/job-grid-sidebar">Grid Sidebar</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/joblist_v5">
-                                List Sidebar Fullwidth
-                              </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/joblist_v6">
-                                Grid Sidebar Fullwidth
-                              </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/joblist_v7">Top Map</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/joblist_v8">Top Map Sidebar</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/joblist_v9">Half Map - V1</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/joblist_v10">Half Map - V2</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/jobsingle_v1">Jobs Single - V1</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/jobsingle_v2">Jobs Single - V2</Link>
-                            </li>
-                          </ul>
-                        </Collapse>
+                      <li  className={`menu-item`}>
+                        <NavLink to="/">Accueil</NavLink>
                       </li>
-
-                      <li className="menu-item menu-item-has-children-mobile">
-                        <Link
-                          to="#"
-                          className="iteam-menu"
-                          onClick={() => {
-                            handleToggle("employers");
-                          }}
-                        >
-                          Employers
-                        </Link>
-                        <Collapse isOpened={toggle.key === "employers"}>
-                          <ul
-                            className="sub-menu-mobile"
-                            style={{
-                              display: `${
-                                toggle.key === "employers" ? "block" : "none"
-                              }`,
-                            }}
-                          >
-                            <li className="menu-item">
-                              <Link to="/employers_v1">List Layout</Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employers_v2">Grid Layout</Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employers_v3">List Sidebar</Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employers_v4">Grid Sidebar</Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employers_v5">Full Width</Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employers_v6">Top Map</Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employers_v7">Half Map</Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employersingle_v1">
-                                Employers Single - V1
-                              </Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employersingle_v2">
-                                Employers Single - V2
-                              </Link>
-                            </li>
-
-                            <li className="menu-item">
-                              <Link to="/employerreview">
-                                Employers Reviews
-                              </Link>
-                            </li>
-                            <li className="menu-item">
-                              <Link to="/employernotfound">
-                                Employers Not Found
-                              </Link>
-                            </li>
-                          </ul>
-                        </Collapse>
+                      <li  className={`menu-item `}>
+                        <NavLink to="/aboutus">Pour qui ? - Pourquoi ?</NavLink>
                       </li>
-                      <li className="menu-item menu-item-has-children-mobile">
-                        <Link
-                          to="#"
-                          className="iteam-menu"
-                          onClick={() => {
-                            handleToggle("candidate");
-                          }}
-                        >
-                          Candidates
-                        </Link>
-                        <Collapse isOpened={toggle.key === "candidate"}>
-                          <ul
-                            className="sub-menu-mobile"
-                            style={{
-                              display: `${
-                                toggle.key === "candidate" ? "block" : "none"
-                              }`,
-                            }}
-                          >
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidates_v1">List Layout</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidates_v2">Grid Layout</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidates_v3">List Sidebar</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidates_v4">Top Map</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidates_v5">Half Map</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidates_v6">No Available V1</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidates_v7">No Available V2</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidatesingle_v1">
-                                Candidate Single - V1
-                              </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/candidatesingle_v2">
-                                Candidate Single - V2
-                              </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/samplecv">Sample CV</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/samplecvslidebar">
-                                Sample CV Sidebar
-                              </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/samplecvdetails">CV Details</Link>
-                            </li>
-                          </ul>
-                        </Collapse>
+                      <li  className={`menu-item `}>
+                        <NavLink to="/consultation">Consultation</NavLink>
                       </li>
-                      <li className="menu-item menu-item-has-children-mobile current-item">
-                        <Link
-                          to="#"
-                          className="iteam-menu"
-                          onClick={() => {
-                            handleToggle("blog");
-                          }}
-                        >
-                          Blog
-                        </Link>
-                        <Collapse isOpened={toggle.key === "blog"}>
-                          <ul
-                            className="sub-menu-mobile"
-                            style={{
-                              display: `${
-                                toggle.key === "blog" ? "block" : "none"
-                              }`,
-                            }}
-                          >
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/blog_v1">Blog List </Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/Blog">Blog Grid</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/blog_v3">Blog Masonry</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile current-item">
-                              <Link to="/blogsingle_v1">Blog Details - V1</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/blogsingle_v2">Blog Details - V2</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/blogsingle_v3">
-                                Blog Details Sidebar
-                              </Link>
-                            </li>
-                          </ul>
-                        </Collapse>
+                      <li  className={`menu-item `}>
+                        <NavLink to="/investor">Investisseurs</NavLink>
                       </li>
-                      <li className="menu-item menu-item-has-children-mobile">
-                        <Link
-                          to="#"
-                          className="iteam-menu"
-                          onClick={() => {
-                            handleToggle("pages");
-                          }}
-                        >
-                          Pages
-                        </Link>
-                        <Collapse isOpened={toggle.key === "pages"}>
-                          <ul
-                            className="sub-menu-mobile"
-                            style={{
-                              display: `${
-                                toggle.key === "pages" ? "block" : "none"
-                              }`,
-                            }}
-                          >
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/aboutus">About Us</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/faqs">FAQS</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/termsofuse">Terms Of Use</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/pricing">Pricing</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/shop">Shop List</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/shoppingcart">Shopping Cart</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/shopsingle">Shop Single</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/checkout">Checkout</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/login">Login</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/createaccount">Create Account</Link>
-                            </li>
-                            <li className="menu-item menu-item-mobile">
-                              <Link to="/contactus">Contact Us</Link>
-                            </li>
-                          </ul>
-                        </Collapse>
+                      <li  className={`menu-item `}>
+                        <NavLink to="/Blog">Blog</NavLink>
+                      </li>
+                      <li  className={`menu-item `}>
+                        <NavLink to="/contactus">Contact</NavLink>
                       </li>
                     </ul>
                   </nav>
                 </div>
               </TabPanel>
-
-              <TabPanel className="categories animation-tab">
-                <div className="sub-categorie-mobile">
-                  <ul className="pop-up">
-                    <li className="categories-mobile">
-                      <Link to="/jobsingle_v1">
-                        <span className="icon-categorie-1"></span>Design &
-                        Creative
-                      </Link>
-                    </li>
-                    <li className="categories-mobile">
-                      <Link to="/jobsingle_v1">
-                        <span className="icon-categorie-8"></span>Digital
-                        Marketing
-                      </Link>
-                    </li>
-                    <li className="categories-mobile">
-                      <Link to="/jobsingle_v1">
-                        <span className="icon-categorie-2"></span>Development &
-                        IT
-                      </Link>
-                    </li>
-                    <li className="categories-mobile">
-                      <Link to="/jobsingle_v1">
-                        <span className="icon-categorie-3"></span>Music & Audio
-                      </Link>
-                    </li>
-                    <li className="categories-mobile">
-                      <Link to="/jobsingle_v1">
-                        <span className="icon-categorie-4"></span>Finance &
-                        Accounting
-                      </Link>
-                    </li>
-                    <li className="categories-mobile">
-                      <Link to="/jobsingle_v1">
-                        <span className="icon-categorie-5"></span>Programming &
-                        Tech
-                      </Link>
-                    </li>
-                    <li className="categories-mobile">
-                      <Link to="/jobsingle_v1">
-                        <span className="icon-categorie-6"></span>Video &
-                        Animation
-                      </Link>
-                    </li>
-                    <li className="categories-mobile">
-                      <Link to="/jobsingle_v1">
-                        <span className="icon-categorie-7"></span>Writing &
-                        translation
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </TabPanel>
             </div>
           </Tabs>
-
           <div className="header-customize-item button">
-            <Link to="/">Upload Resume</Link>
+            <Link to="/">CONNEXION</Link>
           </div>
-
           <div className="mobile-footer">
             <div className="icon-infor d-flex aln-center">
               <div className="icon">
@@ -492,33 +109,23 @@ function Blogsingle_v1(props) {
             <div className="wd-social d-flex aln-center">
               <ul className="list-social d-flex aln-center">
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.facebook.com/FoncierOnline" target='_blank'>
                     <i className="icon-facebook"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="https://www.linkedin.com/company/foncieronline/" target='_blank'>
                     <i className="icon-linkedin2"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
+                  <Link to="https://twitter.com/i/flow/login?redirect_after_login=%2FFoncierOnline" target='_blank'>
                     <i className="icon-twitter"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link to="#">
-                    <i className="icon-pinterest"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
+                  <Link to="https://www.instagram.com/foncieronline/" target='_blank'>
                     <i className="icon-instagram1"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <i className="icon-youtube"></i>
                   </Link>
                 </li>
               </ul>
@@ -526,7 +133,9 @@ function Blogsingle_v1(props) {
           </div>
         </div>
       </div>
-      <Header2 clname="actBlog4" handleMobile={handleMobile} />
+
+      <HeaderHome2 clname="act1" handleMobile={handleMobile} />
+
       <section className="blog-detail-section">
         <div className="tf-container">
           <div className="wrap-blog-detail blog-detail blog-detail-side-bar-content">
@@ -534,14 +143,14 @@ function Blogsingle_v1(props) {
               <div className="content">
                 <span className="sub-title">Makerting</span>
                 <h3 className="main-heading">
-                  5 Rules to keep in mind when negotiating a job
+                  Locaux d'activité et entrepôts logistiques, quelles différences ?
                 </h3>
                 <ul className="meta">
                   <li className="author">
                     <span>by</span>Avitex
                   </li>
                   <li className="time">
-                    <span className="icon-calendar"></span> 2 days ago
+                    <span className="icon-calendar"></span> 07-11-2023
                   </li>
                 </ul>
               </div>
@@ -553,99 +162,51 @@ function Blogsingle_v1(props) {
               </div>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              interdum sed mauris eu imperdiet. Donec congue orci nec mi luctus,
-              ut faucibus mauris scelerisque. Donec orci lorem, volutpat a
-              mauris nec, sodales imperdiet urna. Sed dictum enim libero.
-              Interdum et malesuada fames ac ante ipsum primis in faucibus.
-              Maecenas ligula libero, pharetra non dolor et, tempor bibendum
-              magna. Mauris a efficitur nisi.
+              Les notions de locaux d'activité et d'entrepôts logistiques sont toutes deux liées au secteur immobilier dit “non résidentiel”. En France, les entrepôts et plateformes logistiques (EPL) représentent 78 millions de m².  Pour ce qui concerne les locaux d'activités, notre pays compte un parc immobilier de 18 millions de m² rien que pour les surfaces commerciales. Locaux d'activité et entrepôts logistiques, quelles différences ? Comment valoriser ces actifs immobilier au mieux ? Peut-on les transformer en habitation ? Tour d'horizon de ces biens aux caractéristiques spécifiques.
             </p>
+            <h5>Caractéristique des locaux d'activités et des entrepôts logistiques</h5>
             <p>
-              Praesent interdum lacus ac est viverra hendrerit. Aliquam dapibus,
-              ante vitae mattis gravida, purus sapien interdum magna, convallis
-              volutpat est turpis pulvinar dui. Aenean eu turpis est. In hac
-              habitasse platea dictumst. Integer at lobortis metus. Proin
-              molestie eget massa vel gravida. Suspendisse nec ante vel augue
-              consectetur mollis.
+            Les locaux d'activité et les entrepôts logistiques désignent des biens immobiliers dits “non résidentiels”.  Voici leurs principales caractéristiques. Les locaux d'activité Le local d'activités désigne un bâtiment ou une partie d'un bâtiment affecté à l'exercice d'une activité artisanale, industrielle ou commerciale. Le local d'activité constitue un espace fonctionnel se présentant généralement sous l'image de boutiques, magasins, bureaux professionnels, etc. L'exploitation d'un local d'activité se fait par achat ou par location (bail professionnel ou commercial). Le local d'activité comprend tous les matériels et outillages utiles au fonctionnement d'une entreprise. Dans la majorité des cas, il se situe géographiquement dans les zones urbaines et périurbaines. La répartition des investissements en immobilier d'entreprise en France est la suivante : bureau 59% actifs industriels 25% commerces  12% hôtellerie 4% (Source : BNP PARIBAS Real Estate)
             </p>
-            <div className="image-single">
-              <img
-                src={require("../assets/images/blog/blog-detail-02.jpg")}
-                alt=""
-              />
-              <img
-                src={require("../assets/images/blog/blog-detail-03.jpg")}
-                alt=""
-              />
-            </div>
-            <h5>How to deal with employee quitting</h5>
+            
+            <h5>Les entrepôts logistiques</h5>
             <p>
-              Donec eu dui condimentum, laoreet nulla vitae, venenatis ipsum.
-              Donec luctus sem sit amet varius laoreet. Aliquam fermentum sit
-              amet urna fringilla tincidunt. Vestibulum ullamcorper nec lacus ac
-              molestie. Curabitur congue neque sed nisi auctor consequat.
-              Pellentesque rhoncus tortor vitae ipsum sagittis tempor.
+            Étymologiquement, l'entrepôt correspond à un « lieu de dépôt ». Ce terme désigne un bâtiment ou une zone dont la finalité est de stocker des produits ou des marchandises, quelle que soit leur nature. L'entrepôt se caractérise par sa grande taille. En France, la taille moyenne d'un entrepôt logistique est de 18 500 m². Les plus grands pouvant couvrir jusqu'à 140.000 m². Les praticiens les qualifient d'”entrepôts XXL”. Il existe différents types d'entrepôts logistiques : Entrepôt de production Destiné à stocker des matières premières ou produits finis, le conditionnement (cartons, etc.) intervenant dans la chaîne de production Entrepôt de distribution : Consacré au stockage des produits avant leur livraison en fin de chaîne de production ; Entrepôt terminal : Pour les produits invendus ou en fin de vie ; Etc. Les bâtiments logistiques sont soumis au respect de la réglementation des Installations classées pour la protection de l'environnement (ICPE). Chaque installation fait l'objet d'une autorisation préfectorale comportant ses caractéristiques et les prescriptions à respecter par l'exploitant (volume, nature du stockage, etc.). Les entrepôts logistiques se situent en général dans les zones périphériques des villes à cause de leur taille gigantesque, souvent à proximité d'autoroutes et/ou de zones de desserte
             </p>
+            <h5>Achat ou location, quelle est la meilleure option ?</h5>
             <p>
-              Vestibulum et pharetra arcu. In porta lobortis turpis. Ut faucibus
-              fermentum posuere. Suspendisse potenti. Mauris a metus sed est
-              semper vestibulum. Mauris tortor sem, consectetur vehicula
-              vulputate id, suscipit vel leo.
+            Un choix stratégique s'impose entre acquisition ou bail pour les deux types de biens immobiliers. Un choix stratégique Coût, rentabilité, retour sur investissement… sont autant de critères à prendre en compte. Ainsi, s'il est souhaitable pour les entreprises stables d'acheter un local d'activité ou un entrepôt logistique, la location est une solution alternative. Les conditions, le loyer et les frais varient selon le type de bail (commercial, professionnel, précaire, etc.), l'emplacement, la surface disponible et/ou divisible dans laquelle se situe la structure à louer.
             </p>
-            <ul className="blog-text">
-              <li>
-                15+ years of industry experience designing, building, and
-                supporting large-scale distributed systems in production, with
-                recent experience in building large scale cloud services.
-              </li>
-              <li>
-                Deep knowledge and experience with different security areas like
-                identity and access management, cryptography, network security,
-                etc.
-              </li>
-              <li>
-                Experience with database systems and database internals, such as
-                query engines and optimizers are a big plus.{" "}
-              </li>
-              <li>Strong fundamentals in computer science skills.</li>
-              <li>Expert-level development skills in Java or C++.</li>
-              <li>
-                Knowledge of industry standard security concepts and protocols
-                like SAML, SCIM, OAuth, RBAC, cryptography is a plus.
-              </li>
-              <li>Advanced degree in Computer Science or related degree.</li>
-              <li>Ph.D. in the related field is a plus</li>
-            </ul>
+            <h5>L'importance de la localisation</h5>
             <p>
-              Curabitur aliquam ac arcu in mattis. Phasellus pulvinar erat at
-              aliquam hendrerit. Nam ut velit dolor. Sed fermentum tempus odio,
-              ac faucibus elit scelerisque consequat. Fusce ac malesuada elit.
-              Nam at aliquam libero, quis lacinia erat. In hac habitasse platea
-              dictumst. Suspendisse id dolor orci. Vivamus at aliquam tellus.
-              Vestibulum a augue ac purus suscipit varius non eget lectus. Nam
-              lobortis mauris luctus tristique feugiat. Nulla eleifend risus sit
-              amet nisi feugiat, id eleifend sapien malesuada. Phasellus
-              venenatis convallis mattis. Duis vel tempor eros. Mauris semper
-              sollicitudin neque, imperdiet ultrices urna maximus id.
+            La zone géographique est un critère de détermination à prendre en compte dans le choix entre la location ou l'achat. Suivant les régions, l'offre et la demande varient. Le loyer sera également différent selon que vous recherchez des locaux ou un entrepôt logistique à Paris, Bordeaux, Amiens ou Lorient. De nombreuses annonces de location existent que ce soit pour des locaux d'activité ou des entrepôts logistiques. Il est néanmoins conseillé de se faire accompagner par un professionnel dans les différentes démarches afférentes à la recherche de ce type de biens, ainsi que dans l'élaboration du contrat de bail.
             </p>
+            <h5>Peut-on transformer un local d'activités ou un entrepôt logistique en locaux d'habitation ?</h5>
+            <p>
+            Vous envisagez de transformer un local d'activité ou un entrepôt en zone résidentielle ? Attention ! C'est possible, mais des règles s'imposent. Des conditions strictes Cette opération consiste en un « changement de destination » et répond à  des conditions strictes. Pour cela, il vous faut obtenir au préalable une autorisation administrative. Un permis de construire, Si ce changement de destination s'accompagne de travaux pour modifier la structure, il vous faudra également un permis de construire Article R 421-14 du Code de l'urbanisme).
+            </p>
+            <h5>Bon à savoir</h5>
+            <p>
+            Destination Un local d'activité désigne les espaces dédiés à l'exercice d'une activité professionnelle, depuis les fonctions commerciales jusqu'aux fonctions administratives, en passant par des zones de création ou de fabrication (artisanat). L'entrepôt logistique est quant à lui destiné à entreposer des marchandises des produits finis ou semi-finis qui seront transportés ensuite vers une autre destination. Superficie Un local d'activité est généralement de taille relativement restreinte. Un entrepôt logistique se singularise par son caractère gigantesque pouvant couvrir de milliers de m². Localisation Les locaux d'activités se rencontrent généralement en ville ou dans des zones périurbaines, alors que les entrepôts logistiques se situent en périphérie. Vous en savez plus à présent sur la distinction entre locaux d'activité et entrepôts logistiques. Pour optimiser votre valorisation d'actifs, n'hésitez pas à contacter FoncierOnline !
+            </p>
+
             <div className="tag-social">
               <div className="widget-popular-tags">
                 <span className="main-title">Tag:</span>
                 <ul className="widget-popular-tags-wrap">
                   <li className="widget-popular-tags-item">
-                    <Link to="#">Featured</Link>
+                    <Link to="#">Entrepôts </Link>
                   </li>
                   <li className="widget-popular-tags-item">
-                    <Link to="#">Interview</Link>
+                    <Link to="#">Achat</Link>
                   </li>
                   <li className="widget-popular-tags-item">
-                    <Link to="#">Career</Link>
+                    <Link to="#">Location</Link>
                   </li>
                 </ul>
               </div>
               <div className="wd-social d-flex aln-center">
-                <span>Share this post:</span>
+                <span>Partager l'article:</span>
                 <ul className="list-social d-flex aln-center">
                   <li>
                     <Link to="#">
@@ -664,17 +225,7 @@ function Blogsingle_v1(props) {
                   </li>
                   <li>
                     <Link to="#">
-                      <i className="icon-pinterest"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
                       <i className="icon-instagram1"></i>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#">
-                      <i className="icon-youtube"></i>
                     </Link>
                   </li>
                 </ul>
@@ -684,158 +235,22 @@ function Blogsingle_v1(props) {
               <div className="post-navigation previous-post">
                 <div className="title-post">
                   <Link to="#" rel="prev">
-                    Previous
+                    Précédent
                   </Link>
                 </div>
-                <p>How to choose the right customer </p>
+                <p>Vendre son terrain à un lotisseur: avantages, méthodes </p>
               </div>
               <div className="post-navigation next-post">
                 <div className="title-post text-end">
                   <Link to="#" rel="prev">
-                    Next
+                  Suivant
                   </Link>
                 </div>
-                <p>Starting your traveling blog with Vasco</p>
+                <p>Comment déterminer la valeur d'un actif immobilier ?</p>
               </div>
             </div>
-            <div className="comment-list-wrap">
-              <h3 className="comment-title">03 Comments</h3>
-              <div className="comment-list">
-                <article className="widget-comment-wrap">
-                  <div className="feature-post">
-                    <img
-                      src={require("../assets/images/user/avatar/image-02.jpg")}
-                      alt=""
-                    />
-                  </div>
-                  <div className="content-post">
-                    <div className="post-author">
-                      <Link to="#">Guy Hawkins</Link>
-                      <span className="icon-check"></span>
-                    </div>
-                    <div className="post-date">August 13, 2023</div>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur. Cursus nunc
-                      pharetra arcu quam turpis risus amet turpis. Facilisis
-                      elementum tincidunt pellentesque sed rutrum enim.
-                    </p>
-                    <div className="button">
-                      <Link to="#">Reply</Link>
-                    </div>
-                  </div>
-                  <div className="helpfull">
-                    <Link to="#">
-                      Was this helpful?<span className="icon-like1"></span>
-                    </Link>
-                  </div>
-                </article>
-                <div className="children">
-                  <article className="widget-comment-wrap">
-                    <div className="feature-post">
-                      <img
-                        src={require("../assets/images/user/avatar/image-03.jpg")}
-                        alt=""
-                      />
-                    </div>
-                    <div className="content-post">
-                      <div className="post-author">
-                        <Link to="#">Eleanor Pena</Link>
-                        <span className="icon-check"></span>
-                      </div>
-                      <div className="post-date">August 13, 2023</div>
-                      <p>Great choice of Acronym AF1’s 👌🏼</p>
-                      <div className="button">
-                        <Link to="#">Reply</Link>
-                      </div>
-                    </div>
-                    <div className="helpfull">
-                      <Link to="#">
-                        Was this helpful?<span className="icon-like1"></span>
-                      </Link>
-                    </div>
-                  </article>
-                </div>
-                <article className="widget-comment-wrap">
-                  <div className="feature-post">
-                    <img
-                      src={require("../assets/images/user/avatar/image-04.jpg")}
-                      alt=""
-                    />
-                  </div>
-                  <div className="content-post">
-                    <div className="post-author">
-                      <Link to="#">Jerome Bell</Link>
-                      <span className="icon-check"></span>
-                    </div>
-                    <div className="post-date">August 13, 2023</div>
-                    <p>
-                      Lorem ipsum dolor sit amet consectetur. Cursus nunc
-                      pharetra arcu quam turpis risus amet turpis. Facilisis
-                      elementum tincidunt pellentesque sed rutrum enim.
-                    </p>
-                    <div className="button">
-                      <Link to="#">Reply</Link>
-                    </div>
-                  </div>
-                  <div className="helpfull">
-                    <Link to="#">
-                      Was this helpful?<span className="icon-like1"></span>
-                    </Link>
-                  </div>
-                </article>
-              </div>
-            </div>
-            <form className="wd-form-rating">
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="form-rating-heading">
-                    <h3>Leave A Comment</h3>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <div className="form-rating-content">
-                    <div className="row">
-                      <div className="col-lg-6">
-                        <div className="wrap-input">
-                          <label>Name</label>
-                          <input type="text" placeholder="Your name" />
-                        </div>
-                      </div>
-                      <div className="col-lg-6">
-                        <div className="wrap-input">
-                          <label>Email</label>
-                          <input type="text" placeholder="jobtex@mail.com" />
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="wrap-checkbox">
-                          <input type="checkbox" />
-                          <label>
-                            Save my name, email, and website in this browser for
-                            the next time I comment.
-                          </label>
-                        </div>
-                      </div>
-                      <div className="col-lg-12">
-                        <div className="wrap-notes">
-                          <label>Comment</label>
-                          <textarea
-                            cols="30"
-                            rows="10"
-                            placeholder="Write comment"
-                          ></textarea>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-12">
-                  <button className="tf-btn-submit style-2">
-                    submit review
-                  </button>
-                </div>
-              </div>
-            </form>
+            
+            
           </div>
         </div>
       </section>
