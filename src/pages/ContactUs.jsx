@@ -1,7 +1,8 @@
 import React from "react";
 import HeaderHome2 from "../components/header/HeaderHome2";
-import MapSection from "../components/map";
-import dataMap from "../assets/fakeData/dataMap";
+//import MapSection from "../components/map";
+//import dataMap from "../assets/fakeData/dataMap";
+import Map from "../components/map/Gmap";
 import Footer from "../components/footer";
 import Gotop from "../components/gotop";
 import Contact from "../components/contact";
@@ -134,7 +135,8 @@ function ContactUs(props) {
       </div>
 
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
-      <MapSection markers={dataMap} />
+      {/*<MapSection markers={dataMap} />*/}
+      <Map />
       <Contact />
       <Footer />
       <Gotop />

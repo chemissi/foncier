@@ -17,7 +17,6 @@ function Banner08(props) {
               <div className="heading text-center">
                 <h2 className="text-white">Estimation GRATUITE et FIABLE de vos actifs immobiliers</h2>
                 <p className="text-white">
-                Vous souhaitez obtenir une VALORISATION gratuite de votre actif immobilier personnel ou professionnel ?
                 Renseignez votre adresse pour découvrir comment vendre votre parcelle 30% plus cher.
                 </p>
               </div>
