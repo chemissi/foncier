@@ -48,14 +48,14 @@ function ShopS1(props) {
                             <img
                               className="logo-company"
                               src={idx.img1}
-                              alt="jobtex"
+                              alt="FoncierOnline"
                             />
                           </div>
                           <div className="product-hover-images">
                             <img
                               className="logo-company"
                               src={idx.img2}
-                              alt="jobtex"
+                              alt="FoncierOnline"
                             />
                           </div>
                         </Link>

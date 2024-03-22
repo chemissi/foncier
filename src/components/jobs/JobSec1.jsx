@@ -76,7 +76,7 @@ function JobSec1(props) {
                     <div className="inner-box">
                       <div className="company">
                         <div className="logo-company">
-                          <img src={idx.img} alt="Jobtex" />
+                          <img src={idx.img} alt="FoncierOnline" />
                         </div>
                         <div className="box-content">
                           <h4>
@@ -161,7 +161,7 @@ function JobSec1(props) {
                       <div className="job-archive-header">
                         <div className="inner-box">
                           <div className="logo-company">
-                            <img src={idx.img} alt="jobtex" />
+                            <img src={idx.img} alt="FoncierOnline" />
                           </div>
                           <div className="box-content">
                             <h4>

@@ -25,7 +25,7 @@ function Blog01(props) {
               <div className="box-latest">
               <Link to="/blog" className="tag">
                 <div className="img-latest">
-                  <img src={idx.img} alt="Jobtex" />
+                  <img src={idx.img} alt="FoncierOnline" />
                 </div>
                 <div className="box-content">
                   <div className="heading">

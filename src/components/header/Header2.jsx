@@ -839,7 +839,7 @@ function Header2({ clname = "", handleMobile }) {
                   </div>
                 </div>
                 <div className="header-customize-item account">
-                  <img src={avt} alt="jobtex" />
+                  <img src={avt} alt="FoncierOnline" />
                   <div className="name">Candidates</div>
                 </div>
                 <div className="header-customize-item button">

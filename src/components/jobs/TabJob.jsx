@@ -23,7 +23,7 @@ function TabJob(props) {
                     <div className="job-archive-header">
                       <div className="inner-box">
                         <div className="logo-company">
-                          <img src={idx.img} alt="Jobtex" />
+                          <img src={idx.img} alt="FoncierOnline" />
                         </div>
                         <div className="box-content">
                           <h4>
@@ -93,7 +93,7 @@ function TabJob(props) {
                       <div className="job-archive-header">
                         <div className="inner-box">
                           <div className="logo-company">
-                            <img src={idx.img} alt="Jobtex" />
+                            <img src={idx.img} alt="FoncierOnline" />
                           </div>
                           <div className="box-content">
                             <h4>
@@ -647,7 +647,7 @@ function TabJob(props) {
                             <div className="logo-company">
                               <img
                                 src={require("../../assets/images/logo-company/cty2.png")}
-                                alt="jobtex"
+                                alt="FoncierOnline"
                               />
                             </div>
                             <div className="box-content">
@@ -712,7 +712,7 @@ function TabJob(props) {
                             <div className="logo-company">
                               <img
                                 src={require("../../assets/images/logo-company/cty7.png")}
-                                alt="jobtex"
+                                alt="FoncierOnline"
                               />
                             </div>
                             <div className="box-content">
@@ -777,7 +777,7 @@ function TabJob(props) {
                             <div className="logo-company">
                               <img
                                 src={require("../../assets/images/logo-company/cty8.png")}
-                                alt="jobtex"
+                                alt="FoncierOnline"
                               />
                             </div>
                             <div className="box-content">

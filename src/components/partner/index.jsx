@@ -50,7 +50,7 @@ function Partner(props) {
             {data.map((item) => (
               <SwiperSlide key={item.id}>
                 <Link to="#" className="logo-partner">
-                  <img src={item.img} alt="Jobtex" />
+                  <img src={item.img} alt="FoncierOnline" />
                 </Link>
               </SwiperSlide>
             ))}

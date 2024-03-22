@@ -25,7 +25,7 @@ function JobStyle4(props) {
                 <div className="inner-box">
                   <div className="company">
                     <div className="logo-company">
-                      <img src={idx.img} alt="Jobtex" />
+                      <img src={idx.img} alt="FoncierOnline" />
                     </div>
                     <div className="box-content">
                       <h4>

@@ -6,6 +6,8 @@ import {
   Route,
   useRoutes,
 } from "react-router-dom";
+import { Helmet } from 'react-helmet';
+
 
 import Home from "./pages/Home";
 
@@ -76,6 +78,12 @@ const AppWrapper = () => {
     <>
       {!loading ? (
         <Router>
+          <Helmet>
+            <title>Accueil | Foncier Onligne, Spécialiste de l'estimation gratuite des actifs immobiliers</title>
+            <meta charSet="utf-8" />
+            <meta name="description" content="Vous possédez des actifs immobiliers situés dans une grande agglomération ou en périphérie ? vendez-les au meilleur prix à des investisseurs et promoteurs partenaires en quête d'opportunités. Obtenez gratuitement une estimation précise et juste de vos biens réalisée par nos experts." />
+            <meta name="keywords" content="Immobiliers, Actifs immobiliers, Parcelle" />
+          </Helmet>
           <ScrollToTop />
           <App />
         </Router>

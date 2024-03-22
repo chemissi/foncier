@@ -56,7 +56,7 @@ function Testimonial(props) {
                       <p className="description">{item.text}</p>
                       <div className="author-group">
                         <div className="avatar">
-                          <img src={item.avt} alt="Jobtex" />
+                          <img src={item.avt} alt="FoncierOnline" />
                         </div>
                         <div className="infor">
                           <h6>{item.name}</h6>

@@ -31,7 +31,7 @@ function Employer(props) {
                 <div className="employer-block">
                   <div className="inner-box">
                     <div className="logo-company">
-                      <img src={idx.img} alt="Jobtex" />
+                      <img src={idx.img} alt="FoncierOnline" />
                     </div>
                     <div className="box-content">
                       <div className="star">

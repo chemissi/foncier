@@ -77,7 +77,7 @@ function EmpSec1(props) {
                     <div key={idx.id} className="employer-block style-2 cl2">
                       <div className="inner-box">
                         <div className="logo-company">
-                          <img src={idx.img} alt="jobtex" />
+                          <img src={idx.img} alt="FoncierOnline" />
                         </div>
                         <div className="box-content">
                           <div className="star">
@@ -134,7 +134,7 @@ function EmpSec1(props) {
                     <div key={idx.id} className="employer-block style-3 cl3">
                       <div className="inner-box">
                         <div className="logo-company">
-                          <img src={idx.img} alt="jobtex" />
+                          <img src={idx.img} alt="FoncierOnline" />
                         </div>
                         <div className="box-content">
                           <div className="star">

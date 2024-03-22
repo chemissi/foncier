@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+
 import PropTypes from "prop-types";
 import HeaderHome2 from "../components/header/HeaderHome2";
 import PopUpForm from "../components/popup";

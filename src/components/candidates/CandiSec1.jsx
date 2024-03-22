@@ -80,7 +80,7 @@ function CandiSec1(props) {
                     >
                       <div className="job-archive-header">
                         <div className="career-header-left">
-                          <img src={idx.avt} alt="jobtex" className="thumb" />
+                          <img src={idx.avt} alt="FoncierOnline" className="thumb" />
                           <div className="career-left-inner">
                             <h4>
                               <Link to="/Candidatesingle_v1">{idx.unit}</Link>
@@ -159,7 +159,7 @@ function CandiSec1(props) {
                   <div key={idx.id} className="features-job wd-thum-career">
                     <div className="job-archive-header">
                       <div className="career-header-left">
-                        <img src={idx.avt} alt="jobtex" className="thumb" />
+                        <img src={idx.avt} alt="FoncierOnline" className="thumb" />
                         <div className="career-left-inner">
                           <h4>
                             <Link to="/Candidatesingle_v1">{idx.unit}</Link>

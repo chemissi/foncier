@@ -1,5 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Helmet } from 'react-helmet';
+
+
 import HeaderHome2 from "../components/header/HeaderHome2";
 
 import ReviewJob10 from "../components/jobs/ReviewJob10";
@@ -154,10 +157,15 @@ function AboutUs(props) {
           </div>
         </div>
       </div>
+
+      <Helmet>
+        <title>Page About</title>
+        <meta name="description" content="About | Savez-vous que vendre à un professionnel permet de bénéficier d'un prix de vente jusqu'à 40 % supérieur à celui d'un particulier" />
+        <meta name="keywords" content="About, professionnel, particulier" />
+      </Helmet>
+
       <HeaderHome2 clname="act1" handleMobile={handleMobile} />
-
       <Breadcrumb title="Pour qui ? - Pourquoi ?" />
-
       <ReviewJob10 className="review-job-section-six" />
       <Review />
       <BannerCounter />
